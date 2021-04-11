@@ -1,14 +1,20 @@
-Firegraft:
--Upgrades (Covert ops/Physics Lab)
-
 Datedit:
--Units
+-Ghost (Caster,etc)
+-Vulture (Weapon Graphic, Cannot Load)
+-Tank (Cannot Load)
+-Goliath (Remove Ground Weapon, Cannot Load)
+-Wraith (Remove Ground Weapon)
+-Arb (Anti-Ground Weapon)
 
 Terrain:
 -Ensure Neutral Addons are attachable
 -South Part of Map
--Zombie Outposts
 -Zombie Main base
 
 Triggers:
--TBD
+-Create Players Start Units & Text Messages Explaining Scenario
+-Map Revealed at Start
+-Zombie Persistent Stream
+-Zombie Waves
+-Evolution/Difficulty Progression
+-Scaling Difficulty Option (Difficulty Increases Zombie Attack Upgrades)
