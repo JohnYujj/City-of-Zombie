@@ -12,9 +12,9 @@ Terrain:
 -Zombie Main base
 
 Triggers:
--Create Players Start Units & Text Messages Explaining Scenario
+-Text Messages Explaining Scenario
 -Map Revealed at Start
 -Zombie Persistent Stream
 -Zombie Waves
 -Evolution/Difficulty Progression
--Scaling Difficulty Option (Difficulty Increases Zombie Attack Upgrades)
+-Scaling Difficulty Option (Difficulty Increases Quantity of Zombies)
