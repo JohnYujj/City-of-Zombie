@@ -1,0 +1,214 @@
+S_ProjectSET
+Version : v 0.14.9
+InputMap : C:\Users\Marsh\Documents\GitHub\City-of-Zombie\CityZombie.scx
+OutputMap : C:\Users\Marsh\Documents\GitHub\City-of-Zombie\City of Zombies.scx
+euddraftuse : True
+loadfromCHK : True
+UsedSetting0 : True
+UsedSetting1 : True
+UsedSetting2 : False
+UsedSetting3 : False
+UsedSetting4 : True
+UsedSetting5 : False
+UsedSetting6 : True
+UsedSetting7 : True
+UsedSetting8 : True
+EUDEditorDebug : False
+triggerSetTouse : True
+triggerPlayer : 7
+E_ProjectSET
+S_DatEditSET
+E_DatEditSET
+S_FireGraftSET
+E_FireGraftSET
+S_BtnSET
+BtnUse111 : True
+BtnData111 : 1,228,4359200,4342848,0,0,664,0,2,229,4359200,4338672,0,0,665,0,9,283,4359152,4340784,0,111,670,0,9,282,4360144,4338224,0,0,671,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
+BtnUse113 : True
+BtnData113 : 1,228,4359200,4342848,0,0,664,0,1,2,4361824,4338864,2,2,589,707,2,229,4359200,4338672,0,0,665,0,2,5,4361824,4338864,5,5,591,704,3,3,4361824,4338864,3,3,590,703,6,286,4363552,4342944,0,0,672,0,7,120,4361824,4341008,120,120,663,0,9,283,4359152,4340784,0,113,670,0,9,282,4360144,4338224,0,0,671,0,9,236,4359472,4338832,0,254,693,0,9,236,4360448,4338416,0,0,691,0,9,236,4360480,4338384,0,0,694,0,
+BtnUse114 : True
+BtnData114 : 1,228,4359200,4342848,0,0,664,0,1,8,4361824,4338864,8,8,593,1295,2,229,4359200,4338672,0,0,665,0,2,11,4361824,4338864,11,11,595,706,3,71,4361824,4338864,71,71,605,721,6,286,4363552,4342944,0,0,672,0,7,115,4361824,4341008,115,115,660,0,9,283,4359152,4340784,0,114,670,0,9,282,4360144,4338224,0,0,671,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
+BtnUse117 : True
+BtnData117 : 1,240,4363520,4338512,1,1,325,0,2,252,4363520,4338512,10,10,333,0,4,249,4363344,4338448,20,20,476,0,5,256,4363344,4338448,21,21,477,0,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
+BtnUse239 : True
+BtnData239 : 1,106,4361824,4341424,106,106,646,0,2,111,4361824,4341424,111,111,649,710,5,114,4361824,4341424,114,114,655,713,6,124,4361824,4341424,124,124,651,717,4,113,4361824,4341424,113,113,654,712,7,116,4361824,4341424,116,116,656,714,3,125,4361824,4341424,125,125,653,718,9,236,4358864,4561648,0,228,688,0,
+E_BtnSET
+S_ReqSET
+ReqUse0,2 : 3
+ReqPos0,2 : 16
+ReqCount0,2 : 6
+ReqData0,2,0 : 65282
+ReqData0,2,1 : 113
+ReqData0,2,2 : 65285
+ReqData0,2,3 : 65288
+ReqData0,2,4 : 65284
+ReqData0,2,5 : 120
+ReqUse0,3 : 3
+ReqPos0,3 : 24
+ReqCount0,3 : 6
+ReqData0,3,0 : 65282
+ReqData0,3,1 : 113
+ReqData0,3,2 : 65285
+ReqData0,3,3 : 65288
+ReqData0,3,4 : 65284
+ReqData0,3,5 : 120
+ReqUse0,8 : 3
+ReqPos0,8 : 46
+ReqCount0,8 : 6
+ReqData0,8,0 : 65282
+ReqData0,8,1 : 114
+ReqData0,8,2 : 65288
+ReqData0,8,3 : 65285
+ReqData0,8,4 : 65284
+ReqData0,8,5 : 115
+ReqUse0,71 : 3
+ReqPos0,71 : 214
+ReqCount0,71 : 6
+ReqData0,71,0 : 65282
+ReqData0,71,1 : 114
+ReqData0,71,2 : 65285
+ReqData0,71,3 : 65288
+ReqData0,71,4 : 65284
+ReqData0,71,5 : 115
+ReqUse0,113 : 3
+ReqPos0,113 : 301
+ReqCount0,113 : 4
+ReqData0,113,0 : 65282
+ReqData0,113,1 : 7
+ReqData0,113,2 : 65291
+ReqData0,113,3 : 106
+ReqUse0,114 : 3
+ReqPos0,114 : 307
+ReqCount0,114 : 4
+ReqData0,114,0 : 65282
+ReqData0,114,1 : 7
+ReqData0,114,2 : 65291
+ReqData0,114,3 : 106
+ReqUse0,116 : 3
+ReqPos0,116 : 319
+ReqCount0,116 : 4
+ReqData0,116,0 : 65282
+ReqData0,116,1 : 7
+ReqData0,116,2 : 65291
+ReqData0,116,3 : 106
+ReqUse0,122 : 1
+ReqPos0,122 : 0
+ReqCount0,122 : 0
+ReqUse0,124 : 3
+ReqPos0,124 : 349
+ReqCount0,124 : 4
+ReqData0,124,0 : 65282
+ReqData0,124,1 : 7
+ReqData0,124,2 : 65291
+ReqData0,124,3 : 106
+ReqUse0,125 : 3
+ReqPos0,125 : 355
+ReqCount0,125 : 4
+ReqData0,125,0 : 65282
+ReqData0,125,1 : 7
+ReqData0,125,2 : 65291
+ReqData0,125,3 : 106
+ReqUse0,170 : 1
+ReqPos0,170 : 0
+ReqCount0,170 : 0
+E_ReqSET
+S_BinEditSET
+projectsceneDataCount : 1
+projectsceneData 0binDataCount : 26
+E_BinEditSET
+S_SoundPlayerSET
+Soundinterval : 3
+E_SoundPlayerSET
+S_GRPEditorSET
+GRPEditorDATCount : 0
+GRPEditorUsingDATCount : 0
+GRPEditorUsingindexDATCount : 0
+E_GRPEditorSET
+S_TileSET
+ProjectTileUseFile : False
+ProjectTileSetFileName : 
+ProjectTIleMSetCount : 25249
+ProjectTIleMSetArray : 
+ProjectTileSetDataCount : 0
+ProjectMTXMDATACount : 18432
+ProjectMTXMDATAArray : 
+E_TileSET
+S_FileManagerSET
+stattextdicCount : 5
+stattextdickey0 : 711
+stattextdicvalue0 : Factory Requires:<10>   Command Center
+stattextdickey1 : 720
+stattextdicvalue1 : Arbiter Requires:<10>   Attached Control Tower
+stattextdickey2 : 1294
+stattextdicvalue2 : Wraith Requires:<10>   Attached Control Tower
+stattextdickey3 : 706
+stattextdicvalue3 : Vulture Requires:<10>   Attached Machine Shop
+stattextdickey4 : 702
+stattextdicvalue4 : Goliath Requires:<10>   Attached Machine Shop
+wireuse : True
+E_FileManagerSET
+S_TriggerEditorSET
+&functions&
+Type:15
+ElementsCount:0
+END
+
+&GlobalVar&
+Type:0
+ElementsCount:0
+END
+
+&onPluginStart&
+Type:0
+ElementsCount:0
+END
+
+&beforeTriggerExec&
+Type:0
+ElementsCount:0
+END
+
+&afterTriggerExec&
+Type:0
+ElementsCount:0
+END
+
+
+E_TriggerEditorSET
+S_PluginSET
+soundstopper : False
+scmloader : False
+noAirColsion : False
+unlimiter : False
+keepSTR : False
+eudTurbo : False
+iscriptPatcher : 
+iscriptPatcheruse : False
+unpatcher : 
+unpatcheruse : False
+nqcuse : False
+nqcunit : 
+nqclocs : 
+nqccommands : 
+grpinjectoruse : False
+grpinjector_arrow : 
+grpinjector_drag : 
+grpinjector_illegal : 
+dataDumperuse : False
+dataDumper_user : 
+dataDumper_grpwire : 
+dataDumper_tranwire : 
+dataDumper_wirefram : 
+dataDumper_cmdicons : 
+dataDumper_stat_txt : 
+dataDumper_AIscript : 
+dataDumper_iscript : 
+dataDumper_grpwire_f : 0
+dataDumper_tranwire_f : 0
+dataDumper_wirefram_f : 0
+dataDumper_cmdicons_f : 0
+dataDumper_stat_txt_f : 0
+dataDumper_AIscript_f : 0
+dataDumper_iscript_f : 0
+extraedssetting : 
+E_PluginSET
