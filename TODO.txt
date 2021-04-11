@@ -1,20 +1,15 @@
-Datedit:
--Ghost (Caster,etc)
--Vulture (Weapon Graphic, Cannot Load)
--Tank (Cannot Load)
--Goliath (Remove Ground Weapon, Cannot Load)
--Wraith (Remove Ground Weapon)
--Arb (Anti-Ground Weapon)
-
 Terrain:
--Ensure Neutral Addons are attachable
--South Part of Map
+-South Part of Map (Additional Districts)
 -Zombie Main base
 
 Triggers:
 -Text Messages Explaining Scenario
 -Map Revealed at Start
--Zombie Persistent Stream
--Zombie Waves
--Evolution/Difficulty Progression
 -Scaling Difficulty Option (Difficulty Increases Quantity of Zombies)
+
+Zombies Default Gain 10 Pop Per Sec
+-Each Difficulty Increases Pop Gain by 1
+-Every 100 Pops, Zombies Will Spawn 5 Units & Store 5 "Wave Points"
+-Every 100 Wave Points, Zombie Wave Will Spawn
+-Strength of Zombies Depends on Time in Game (Zombies Stronger Over Time)
+-Quantity of Zombies Depends on Difficulty 
