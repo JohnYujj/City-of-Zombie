@@ -1,6 +1,8 @@
+
+
 Terrain:
--South Part of Map (Additional Districts)
--Zombie Main base
+-South Part of Map -> Add More Residential Buildings
+-Zombie Main base (Spawn Point)
 
 Triggers:
 -Text Messages Explaining Scenario
@@ -13,3 +15,8 @@ Zombies Default Gain 10 Pop Per Sec
 -Every 100 Wave Points, Zombie Wave Will Spawn
 -Strength of Zombies Depends on Time in Game (Zombies Stronger Over Time)
 -Quantity of Zombies Depends on Difficulty 
+
+
+
+Eventually:
+-Add East Part of map (Change 96x192 -> 128x192) with additional production district and more bases in general
