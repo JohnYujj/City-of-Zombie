@@ -1,0 +1,14 @@
+Firegraft:
+-Upgrades (Covert ops/Physics Lab)
+
+Datedit:
+-Units
+
+Terrain:
+-Ensure Neutral Addons are attachable
+-South Part of Map
+-Zombie Outposts
+-Zombie Main base
+
+Triggers:
+-TBD
