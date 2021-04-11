@@ -18,6 +18,7 @@ triggerSetTouse : True
 triggerPlayer : 7
 E_ProjectSET
 S_DatEditSET
+0,6,71,-1
 0,12,71,-128
 0,13,71,-128
 0,17,4,123
@@ -55,6 +56,7 @@ S_DatEditSET
 0,51,2,-4
 0,51,3,-4
 0,51,5,-4
+0,51,7,-2
 0,51,71,-8
 0,52,2,253
 0,52,3,253
@@ -73,7 +75,11 @@ S_DatEditSET
 1,7,4,1
 1,7,11,2
 1,8,11,-2
+1,14,0,2
 1,14,2,1
+1,14,77,-10
+1,15,77,-3
+1,16,0,9
 1,16,2,-4
 1,16,4,7
 1,16,8,8
@@ -87,6 +93,8 @@ E_DatEditSET
 S_FireGraftSET
 E_FireGraftSET
 S_BtnSET
+BtnUse7 : True
+BtnData7 : 1,228,4359792,4342848,0,0,664,0,2,229,4359744,4338672,0,0,665,0,3,230,4359696,4342656,0,0,666,0,4,232,4359648,4340688,0,0,677,0,5,231,4359584,4340592,0,0,675,0,6,233,4359520,4339552,0,0,676,0,7,234,4360720,4561648,0,239,678,0,9,236,4358928,4338672,0,0,700,0,
 BtnUse106 : True
 BtnData106 : 1,228,4359200,4342848,0,0,664,0,1,7,4361824,4338864,7,7,592,0,2,229,4359200,4338672,0,0,665,0,6,286,4363552,4342944,0,0,672,0,2,1,4361824,4338864,1,1,587,0,3,0,4361824,4338864,0,0,586,0,9,283,4359152,4340784,0,106,670,0,9,282,4360144,4338224,0,0,671,0,4,34,4361824,4338864,34,34,1290,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse111 : True
@@ -96,11 +104,13 @@ BtnData113 : 1,228,4359200,4342848,0,0,664,0,1,2,4361824,4338864,2,2,589,707,2,2
 BtnUse114 : True
 BtnData114 : 1,228,4359200,4342848,0,0,664,0,1,8,4361824,4338864,8,8,593,1295,2,229,4359200,4338672,0,0,665,0,2,11,4361824,4338864,11,11,595,706,3,71,4361824,4338864,71,71,605,721,6,286,4363552,4342944,0,0,672,0,7,115,4361824,4341008,115,115,660,0,9,283,4359152,4340784,0,114,670,0,9,282,4360144,4338224,0,0,671,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse117 : True
-BtnData117 : 1,288,4363344,4338448,7,7,463,502,2,292,4363344,4338448,0,0,502,0,4,289,4363344,4338448,8,8,464,508,5,293,4363344,4338448,1,1,457,511,7,290,4363344,4338448,9,9,465,514,8,291,4363344,4338448,2,2,458,517,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
+BtnData117 : 1,288,4363344,4338448,7,7,463,502,2,292,4363344,4338448,0,0,456,0,4,289,4363344,4338448,8,8,464,508,5,293,4363344,4338448,1,1,457,511,7,290,4363344,4338448,9,9,465,514,8,291,4363344,4338448,2,2,458,517,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse118 : True
 BtnData118 : 1,238,4363344,4338448,16,16,472,0,4,287,4363344,4338448,17,17,473,0,5,380,4363344,4338448,54,54,1276,1287,2,237,4363520,4338512,0,0,324,0,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse239 : True
 BtnData239 : 1,106,4361824,4341424,106,106,646,0,2,111,4361824,4341424,111,111,649,710,5,114,4361824,4341424,114,114,655,713,6,124,4361824,4341424,124,124,651,717,4,113,4361824,4341424,113,113,654,712,7,116,4361824,4341424,116,116,656,714,3,125,4361824,4341424,125,125,653,718,9,236,4358864,4561648,0,228,688,0,
+BtnUse242 : True
+BtnData242 : 9,236,4358864,4561648,0,228,688,0,
 E_BtnSET
 S_ReqSET
 ReqUse0,0 : 3
@@ -334,7 +344,7 @@ ProjectMTXMDATACount : 18432
 ProjectMTXMDATAArray : 
 E_TileSET
 S_FileManagerSET
-stattextdicCount : 11
+stattextdicCount : 13
 stattextdickey0 : 711
 stattextdicvalue0 : Factory Requires:<10>   Command Center
 stattextdickey1 : 720
@@ -345,18 +355,22 @@ stattextdickey3 : 706
 stattextdicvalue3 : Vulture Requires:<10>   Attached Machine Shop
 stattextdickey4 : 702
 stattextdicvalue4 : Goliath Requires:<10>   Attached Machine Shop
-stattextdickey5 : 230
-stattextdicvalue5 : <3>Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 18
-stattextdickey6 : 232
-stattextdicvalue6 : <3>50mm Gun<10><4>Range: 6<10>Type: Normal<10>Cooldown: 37
-stattextdickey7 : 238
-stattextdicvalue7 : <3>150mm Gun<10><4>Range: 8<10>Type: Normal<10>Cooldown: 45
-stattextdickey8 : 235
-stattextdicvalue8 : <3>Air Defense Gun<4><10>Range: 6(+3)<10>Type: Normal<10>Cooldown: 30
-stattextdickey9 : 242
-stattextdicvalue9 : <3>Guided Missiles<4><10>Range: 6<10>Type: Explosive<10>Cooldown: 30
-stattextdickey10 : 296
-stattextdicvalue10 : <3>30mm Gunship MG<10><4>Range: 5<10>Type: Concussive<10>Cooldown: 6
+stattextdickey5 : 240
+stattextdicvalue5 : <3>Machine Tools<10><4>Range: 0.3<10>Type: Normal<10>Cooldown: 15
+stattextdickey6 : 230
+stattextdicvalue6 : <3>Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 18
+stattextdickey7 : 232
+stattextdicvalue7 : <3>50mm Gun<10><4>Range: 6<10>Type: Normal<10>Cooldown: 37
+stattextdickey8 : 238
+stattextdicvalue8 : <3>150mm Gun<10><4>Range: 8<10>Type: Normal<10>Cooldown: 45
+stattextdickey9 : 235
+stattextdicvalue9 : <3>Air Defense Gun<4><10>Range: 6(+3)<10>Type: Normal<10>Cooldown: 30
+stattextdickey10 : 242
+stattextdicvalue10 : <3>Guided Missiles<4><10>Range: 6<10>Type: Explosive<10>Cooldown: 30
+stattextdickey11 : 296
+stattextdicvalue11 : <3>30mm Gunship MG<10><4>Range: 5<10>Type: Concussive<10>Cooldown: 6
+stattextdickey12 : 228
+stattextdicvalue12 : <3>Anti-Materiel Rifle<4><10>Range: 4(+1)<10>Type: Concussive<10>Cooldown: 24
 wireuse : True
 E_FileManagerSET
 S_TriggerEditorSET
