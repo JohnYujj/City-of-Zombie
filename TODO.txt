@@ -32,12 +32,12 @@ Zombies Default Gain 100 Tech Points Per 10s
 @100 Wave Point, Zombies Spawn a Wave
 
 Tech Levels:
-0-3k: 4Brood,1Ling & Waves of Zeal/Hyd
+0-3k: 4Brood,1Ling & Waves of Ling/Hyd
 3-6k: 2Brood,2Ling,1Hyd & Waves of Ultra/Hyd
 6-9k: 1Brood,2Ling,1Hyd,1Ultra & Waves of Muta
-9-12k: 3Ling,1Ultra,1Muta & Waves of Guardian/Devourer
-12-15k: 3Kerrigan,1Muta,1Scourge & Waves of Duran/HeroLing
+9-12k: 3Ling,1Ultra,1Muta & Waves of Guardian/Muta
+12-15k: 3Kerrigan,1Muta,1Scourge & Waves of HeroLing/Duran
 15k-18k: 3Kerrigan,1Duran,1Guardian & Waves of Hero Muta/Scourge
-18k-21k: 2Kerrigan,1HeroLing,2Duran & Waves of Torrasque/Hero Guard
-21k-24k: 1Kerrigan,3HeroLing,1HeroHyd & Waves of Larger Hero Muta/Scourge
-24k+: 3HeroLing,1HeroHyd,1Torrasque & Waves of Hero Guard/Hero Muta
+18k-21k: 2Kerrigan,1HeroLing,2Duran & Waves of Hero Guard/Scourge
+21k-24k: 1Kerrigan,3HeroLing,1HeroHyd & Waves of Torrasque/Hero Muta
+24k+: 3HeroLing,1HeroHyd,1Torrasque & Waves of Hero Guard/Hero Muta/Torrasque
