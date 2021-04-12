@@ -1,21 +1,5 @@
-Firegraft
--Add Refinery to SCV: Slot 3, Bunker -> Slot 8
-
-DatEdit:
--Zombies Smaller, Ultras Should fit in 32x32
--Zombie Targeting
--Tank Range 8 -> 7
--Vult Range 6 -> 5
--Sunk Range 7 -> 5
-
 Triggers:
 -Text Messages Explaining Scenario
--Remove Map Revealers at Game Start
--Convert Gas to Mins
-
--Spawn ZWaves Based on Tech
-
-
 
 
 -Scaling Difficulty Option (Difficulty Increases Quantity of Zombies)
