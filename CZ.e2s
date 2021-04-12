@@ -157,6 +157,9 @@ S_DatEditSET
 1,23,4,9
 1,23,11,8
 1,23,77,-2
+2,1,45,-853
+2,2,45,-27
+2,3,45,-13474
 E_DatEditSET
 S_FireGraftSET
 E_FireGraftSET
