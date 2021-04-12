@@ -1,4 +1,19 @@
-Terrain: Make Slums Less Claustrophobic
+---New Physics Lab Researches---
+Marine Stim -- Marine Range -- SCV DMAtrix
+Vulture Speed -- Tank Range -- Goliath Range
+Wraith Ability -- Arbiter Speed
+
+-Rename Marine Range = "Enhanced Rifling"
+-Add DMatrix Spell to SCV = "Defensive Matrix"
+-Rename Vulture Speed = "Advanced Turbine Engine"
+-Change Tank Turret to Goon Base ID
+  -Add Goon Range Upgrade to Physics Lab = "High Caliber Barrel"
+-Add Wraith Ability = "Napalm Strike" (EMP Missile dealing damage, Costs 150 Energy)
+-Change Arb to Scout Base ID
+  -Add Scout Speed Upgrade to Physics Lab = "Gunship Thrusters"
+
+
+--Change Hotkeys for Barracks/Factory/Starport to QWE
 
 
 
