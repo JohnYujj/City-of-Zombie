@@ -1,22 +1,43 @@
+Firegraft
+-Add Refinery to SCV: Slot 3, Bunker -> Slot 8
 
-
-Terrain:
--South Part of Map -> Add More Residential Buildings
--Zombie Main base (Spawn Point)
+DatEdit:
+-Zombies Smaller, Ultras Should fit in 32x32
+-Zombie Targeting
+-Tank Range 8 -> 7
+-Vult Range 6 -> 5
+-Sunk Range 7 -> 5
 
 Triggers:
 -Text Messages Explaining Scenario
--Map Revealed at Start
+-Remove Map Revealers at Game Start
+-Convert Gas to Mins
+
+-Spawn ZWaves Based on Tech
+
+
+
+
 -Scaling Difficulty Option (Difficulty Increases Quantity of Zombies)
+Quality of Zombies Depends on Tech Points
+Quantity of Zombies Depends on Pop Points
 
-Zombies Default Gain 10 Pop Per Sec
--Each Difficulty Increases Pop Gain by 1
--Every 100 Pops, Zombies Will Spawn 5 Units & Store 5 "Wave Points"
--Every 100 Wave Points, Zombie Wave Will Spawn
--Strength of Zombies Depends on Time in Game (Zombies Stronger Over Time)
--Quantity of Zombies Depends on Difficulty 
+Zombies Default Gain 100 Pop Points Per 10s
+-Each Difficulty Increases Pop Gain by 10
 
+Zombies Default Gain 100 Tech Points Per 10s
+-Each Difficulty Increases Tech Gain by 10
 
+@100 Pop Point, Zombies Will Spawn 5 Units & Store 5 "Wave Points"
+@100 Wave Point, Zombies Spawn a Wave
 
-Eventually:
--Add East Part of map (Change 96x192 -> 128x192) with additional production district and more bases in general
+Tech Levels:
+0-3k: 4Brood,1Ling & Waves of Zeal/Hyd
+3-6k: 2Brood,2Ling,1Hyd & Waves of Ultra/Hyd
+6-9k: 1Brood,2Ling,1Hyd,1Ultra & Waves of Muta
+9-12k: 3Ling,1Ultra,1Muta & Waves of Guardian/Devourer
+12-15k: 3Kerrigan,1Muta,1Scourge & Waves of Duran/HeroLing
+15k-18k: 3Kerrigan,1Duran,1Guardian & Waves of Hero Muta/Scourge
+18k-21k: 2Kerrigan,1HeroLing,2Duran & Waves of Torrasque/Hero Guard
+21k-24k: 1Kerrigan,3HeroLing,1HeroHyd & Waves of Larger Hero Muta/Scourge
+24k+: 3HeroLing,1HeroHyd,1Torrasque & Waves of Hero Guard/Hero Muta
