@@ -13,7 +13,11 @@ Wraith Ability -- Arbiter Speed
   -Add Scout Speed Upgrade to Physics Lab = "Gunship Thrusters"
 
 
---Change Hotkeys for Barracks/Factory/Starport to QWE
+-make DMat Not Researched on SCMDraft
+-Adjust SCMDraft Costs 
+
+
+
 
 
 
