@@ -48,6 +48,7 @@ S_DatEditSET
 0,23,5,-1
 0,23,6,-1
 0,23,8,1
+0,23,124,-1
 0,23,146,-2
 0,24,1,-3
 0,24,2,-1
@@ -125,6 +126,7 @@ S_DatEditSET
 1,5,2,-96
 1,5,8,32
 1,5,15,32
+1,5,29,-32
 1,5,53,-64
 1,7,0,-1
 1,7,4,-1
@@ -398,7 +400,7 @@ ProjectMTXMDATACount : 24576
 ProjectMTXMDATAArray : 
 E_TileSET
 S_FileManagerSET
-stattextdicCount : 21
+stattextdicCount : 22
 stattextdickey0 : 711
 stattextdicvalue0 : Factory Requires:<10>   Command Center
 stattextdickey1 : 720
@@ -441,6 +443,8 @@ stattextdickey19 : 655
 stattextdicvalue19 : d<1><3>D: <1>Build Research Facility
 stattextdickey20 : 652
 stattextdicvalue20 : x<1><3>X: <1>Build Bunker
+stattextdickey21 : 256
+stattextdicvalue21 : <3>88mm Shell<10><4>Range: 6<10>Type: Explosive<10>Cooldown: 30
 wireuse : True
 wireframData106 : 110
 E_FileManagerSET
