@@ -173,7 +173,6 @@ S_DatEditSET
 1,1,0,10
 1,1,4,3
 1,1,11,15
-1,1,15,10
 1,1,29,2
 1,1,32,5
 1,1,66,-1
@@ -191,7 +190,7 @@ S_DatEditSET
 1,5,32,-32
 1,5,53,-96
 1,5,66,64
-1,5,73,32
+1,5,73,-16
 1,6,66,-5
 1,6,73,-5
 1,7,0,-1
@@ -201,10 +200,9 @@ S_DatEditSET
 1,7,32,-1
 1,7,73,-2
 1,8,11,-2
-1,8,15,1
 1,8,32,-1
 1,8,66,-1
-1,8,73,6
+1,8,73,-2
 1,10,4,1
 1,10,8,23
 1,10,11,1
@@ -220,7 +218,7 @@ S_DatEditSET
 1,11,29,1
 1,11,32,20
 1,11,66,1
-1,11,73,5
+1,11,73,3
 1,12,4,10
 1,12,8,10
 1,12,11,20
@@ -228,7 +226,7 @@ S_DatEditSET
 1,12,29,15
 1,12,32,50
 1,12,66,20
-1,12,73,5
+1,12,73,3
 1,13,4,20
 1,13,8,20
 1,13,11,40
@@ -236,7 +234,7 @@ S_DatEditSET
 1,13,29,30
 1,13,32,80
 1,13,66,40
-1,13,73,5
+1,13,73,3
 1,14,32,80
 1,16,0,1
 1,16,2,-4
@@ -246,10 +244,10 @@ S_DatEditSET
 1,16,15,38
 1,16,29,10
 1,16,66,15
-1,16,73,-18
+1,16,73,-12
 1,18,66,-112
 1,18,73,16
-1,20,66,75
+1,20,4,-20
 1,22,32,1
 1,23,0,3
 1,23,4,9
@@ -539,10 +537,11 @@ ReqData3,1,1 : 65282
 ReqData3,1,2 : 8
 ReqUse3,6 : 3
 ReqPos3,6 : 64
-ReqCount3,6 : 3
-ReqData3,6,0 : 65295
-ReqData3,6,1 : 65282
-ReqData3,6,2 : 7
+ReqCount3,6 : 4
+ReqData3,6,0 : 65291
+ReqData3,6,1 : 65295
+ReqData3,6,2 : 65282
+ReqData3,6,3 : 7
 E_ReqSET
 S_BinEditSET
 projectsceneDataCount : 1
@@ -662,7 +661,7 @@ stattextdicvalue45 : d<2><3>D: <1>Research Charged Shells (Mobile AA Range)
 stattextdickey46 : 324
 stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (Jet Fighter Ability)
 stattextdickey47 : 292
-stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 5<10>Type: Explosive Disperse<10>Area: 5/5/5<10>Cooldown: 12
+stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 3.5<10>Type: Explosive<10>Area: 3/3/3<10>Cooldown: 18
 stattextdickey48 : 313
 stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey49 : 334
