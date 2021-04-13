@@ -22,6 +22,7 @@ S_DatEditSET
 0,0,106,1
 0,1,5,60
 0,5,66,-20
+0,6,60,-1
 0,6,66,-1
 0,8,66,-25600
 0,10,66,-65
@@ -32,8 +33,8 @@ S_DatEditSET
 0,15,66,12
 0,16,66,2
 0,17,4,123
-0,17,8,114
 0,17,124,-101
+0,19,60,-85
 0,19,66,64
 0,19,70,56
 0,20,66,-1
@@ -51,29 +52,40 @@ S_DatEditSET
 0,21,66,3
 0,21,67,3
 0,22,1,-2097664
+0,22,7,2097152
 0,22,66,-704643056
 0,22,106,-32
-0,22,111,-32
-0,22,113,-32
-0,22,114,-32
 0,22,162,-524288
 0,23,1,-3
 0,23,3,2
-0,23,8,2
+0,23,44,-3
+0,23,56,-3
+0,23,60,-2
 0,23,66,2
 0,23,70,1
 0,23,124,-1
 0,23,144,1
 0,23,146,-3
+0,23,162,1
 0,24,1,-3
 0,24,2,-1
+0,24,3,-1
+0,24,4,-1
 0,24,5,-3
-0,24,8,1
+0,24,7,-1
+0,24,34,-3
 0,24,66,-1
 0,24,70,-1
+0,24,106,-3
+0,24,124,-4
+0,24,125,-3
+0,25,60,-4
 0,25,66,-4
 0,25,70,-4
+0,25,124,-59
+0,25,125,-59
 0,26,2,1
+0,26,60,1
 0,26,66,-3
 0,27,66,-1
 0,36,1,4
@@ -160,19 +172,21 @@ S_DatEditSET
 0,45,66,-124
 0,46,66,-49
 0,47,66,-749
+0,49,60,-2
 0,49,66,-2
 0,49,70,-2
+0,50,106,-20
+0,50,115,24
+0,50,120,24
 0,51,0,-2
 0,51,1,-2
-0,51,2,-4
-0,51,3,-4
-0,51,5,-4
+0,51,5,8
 0,51,7,-2
-0,51,8,-4
-0,51,11,-4
+0,51,11,-2
 0,51,34,-2
+0,51,60,2
 0,51,66,-4
-0,51,70,-6
+0,51,70,2
 0,52,2,253
 0,52,3,253
 0,52,5,251
@@ -185,7 +199,9 @@ S_DatEditSET
 1,0,8,2
 1,1,0,10
 1,1,4,3
+1,1,8,9
 1,1,11,15
+1,1,15,2
 1,1,29,2
 1,1,32,5
 1,1,66,-1
@@ -193,60 +209,75 @@ S_DatEditSET
 1,2,32,43
 1,3,29,2
 1,3,32,43
-1,3,53,1
 1,3,66,-1
 1,5,2,-96
 1,5,8,32
 1,5,15,64
 1,5,29,-32
 1,5,32,-32
+1,5,36,17
+1,5,46,-96
+1,5,47,-96
 1,5,52,32
 1,5,53,-96
 1,5,66,64
+1,5,80,32
+1,5,81,-32
+1,5,113,-32
+1,6,13,-53
+1,6,29,-52
+1,6,32,-51
 1,6,66,-5
 1,6,73,-5
 1,7,0,-1
-1,7,4,-1
+1,7,4,1
 1,7,8,2
 1,7,15,2
 1,7,32,-1
-1,7,73,-2
+1,7,46,-2
+1,7,47,-2
+1,7,66,2
+1,7,80,-2
+1,7,81,-2
 1,8,11,-2
+1,8,15,1
 1,8,32,-1
 1,8,66,-1
 1,8,73,-2
 1,10,8,23
 1,10,11,1
-1,10,15,23
 1,10,32,-2
-1,11,8,1
 1,11,11,1
-1,11,15,1
 1,11,32,20
-1,12,8,10
 1,12,11,20
-1,12,15,10
 1,12,32,50
-1,13,8,20
 1,13,11,40
-1,13,15,20
 1,13,32,80
 1,14,32,80
+1,15,32,8
 1,16,0,1
 1,16,2,-4
 1,16,4,7
-1,16,8,8
+1,16,8,-16
 1,16,11,8
-1,16,15,38
+1,16,15,23
 1,16,29,10
+1,16,36,-4
+1,16,38,-7
+1,16,39,3
+1,16,41,-5
+1,16,48,-5
+1,16,49,-14
 1,16,66,15
 1,16,73,-24
+1,16,113,-4
 1,18,66,-112
 1,18,73,16
 1,20,4,-20
 1,22,32,1
 1,23,0,3
 1,23,4,9
+1,23,8,4
 1,23,11,8
 1,23,15,28
 1,23,29,-3
@@ -254,13 +285,13 @@ S_DatEditSET
 1,23,66,-18
 1,23,73,-25
 2,1,45,-853
-2,1,80,993
 2,1,88,-707
+2,1,191,993
 2,2,45,-27
-2,2,80,33
+2,2,191,33
 2,3,45,-13474
-2,3,80,-745
 2,3,88,-12569
+2,3,191,3933
 E_DatEditSET
 S_FireGraftSET
 E_FireGraftSET
@@ -269,16 +300,18 @@ BtnUse1 : True
 BtnData1 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
 BtnUse7 : True
 BtnData7 : 1,228,4359792,4342848,0,0,664,0,2,229,4359744,4338672,0,0,665,0,3,230,4359696,4342656,0,0,666,0,4,232,4359648,4340688,0,0,677,0,5,231,4359584,4340592,0,0,675,0,6,233,4359296,4339552,0,0,676,0,7,234,4360720,4561648,0,239,678,0,8,247,4363488,4341616,6,6,340,350,9,236,4358928,4338672,0,0,700,0,
-BtnUse8 : True
-BtnData8 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,241,4363488,4341616,1,1,335,347,
+BtnUse60 : True
+BtnData60 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,241,4363488,4341616,1,1,314,347,
 BtnUse106 : True
 BtnData106 : 6,286,4363552,4342944,0,0,672,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse111 : True
-BtnData111 : 1,7,4361824,4338864,7,7,592,0,2,1,4361824,4338864,1,1,587,0,3,0,4361824,4338864,0,0,586,0,4,34,4361824,4338864,34,34,1290,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
+BtnData111 : 9,282,4360144,4338224,0,0,671,0,9,283,4359152,4340784,0,111,670,0,1,7,4361824,4338864,7,7,592,0,2,1,4361824,4338864,1,1,587,0,3,0,4361824,4338864,0,0,586,0,4,34,4361824,4338864,34,34,1290,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse113 : True
-BtnData113 : 1,2,4361824,4338864,2,2,589,707,2,5,4361824,4338864,5,5,591,704,3,3,4361824,4338864,3,3,590,703,6,286,4363552,4342944,0,0,672,0,7,120,4361824,4341008,120,120,663,0,9,236,4359472,4338832,0,254,693,0,9,236,4360448,4338416,0,0,691,0,9,236,4360480,4338384,0,0,694,0,
+BtnData113 : 9,282,4360144,4338224,0,0,671,0,9,283,4359152,4340784,0,113,670,0,1,2,4361824,4338864,2,2,589,707,2,5,4361824,4338864,5,5,591,704,3,3,4361824,4338864,3,3,590,703,6,286,4363552,4342944,0,0,672,0,7,120,4361824,4341008,120,120,663,0,9,236,4359472,4338832,0,254,693,0,9,236,4360448,4338416,0,0,691,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse114 : True
-BtnData114 : 1,8,4361824,4338864,8,8,593,1295,2,11,4361824,4338864,11,11,595,706,3,70,4361824,4338864,70,70,605,721,6,286,4363552,4342944,0,0,672,0,7,115,4361824,4341008,115,115,660,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
+BtnData114 : 9,282,4360144,4338224,0,0,671,0,9,283,4359152,4340784,0,114,670,0,1,60,4361824,4338864,60,60,593,1295,2,11,4361824,4338864,11,11,595,706,3,70,4361824,4338864,70,70,605,721,6,286,4363552,4342944,0,0,672,0,7,115,4361824,4341008,115,115,660,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
+BtnUse116 : True
+BtnData116 : 1,228,4359200,4342848,0,0,664,0,1,241,4363520,4338512,2,2,326,0,2,229,4359200,4338672,0,0,665,0,2,242,4363520,4338512,7,7,330,0,3,248,4363344,4338448,19,19,475,0,7,117,4361824,4341008,117,117,661,0,8,118,4361824,4341008,118,118,662,0,9,283,4359152,4340784,0,116,670,0,9,282,4360144,4338224,0,0,671,0,9,236,4360416,4338480,0,0,692,0,9,236,4360480,4338384,0,0,694,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse117 : True
 BtnData117 : 1,288,4363344,4338448,7,7,463,502,2,292,4363344,4338448,0,0,456,0,4,289,4363344,4338448,8,8,464,508,5,293,4363344,4338448,1,1,457,511,7,290,4363344,4338448,9,9,465,514,8,291,4363344,4338448,2,2,458,517,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse118 : True
@@ -321,25 +354,26 @@ ReqData0,7,0 : 65282
 ReqData0,7,1 : 111
 ReqData0,7,2 : 65288
 ReqData0,7,3 : 65285
-ReqUse0,8 : 3
-ReqPos0,8 : 44
-ReqCount0,8 : 6
-ReqData0,8,0 : 65282
-ReqData0,8,1 : 114
-ReqData0,8,2 : 65288
-ReqData0,8,3 : 65285
-ReqData0,8,4 : 65284
-ReqData0,8,5 : 115
 ReqUse0,34 : 3
-ReqPos0,34 : 91
+ReqPos0,34 : 89
 ReqCount0,34 : 5
 ReqData0,34,0 : 65316
 ReqData0,34,1 : 65282
 ReqData0,34,2 : 111
 ReqData0,34,3 : 65288
 ReqData0,34,4 : 65285
+ReqUse0,60 : 3
+ReqPos0,60 : 165
+ReqCount0,60 : 7
+ReqData0,60,0 : 65316
+ReqData0,60,1 : 65282
+ReqData0,60,2 : 114
+ReqData0,60,3 : 65284
+ReqData0,60,4 : 115
+ReqData0,60,5 : 65288
+ReqData0,60,6 : 65285
 ReqUse0,70 : 3
-ReqPos0,70 : 207
+ReqPos0,70 : 209
 ReqCount0,70 : 6
 ReqData0,70,0 : 65282
 ReqData0,70,1 : 114
@@ -348,25 +382,25 @@ ReqData0,70,3 : 115
 ReqData0,70,4 : 65288
 ReqData0,70,5 : 65285
 ReqUse0,111 : 3
-ReqPos0,111 : 287
+ReqPos0,111 : 289
 ReqCount0,111 : 3
 ReqData0,111,0 : 65282
 ReqData0,111,1 : 7
 ReqData0,111,2 : 65291
 ReqUse0,113 : 3
-ReqPos0,113 : 298
+ReqPos0,113 : 300
 ReqCount0,113 : 3
 ReqData0,113,0 : 65282
 ReqData0,113,1 : 7
 ReqData0,113,2 : 65291
 ReqUse0,114 : 3
-ReqPos0,114 : 303
+ReqPos0,114 : 305
 ReqCount0,114 : 3
 ReqData0,114,0 : 65282
 ReqData0,114,1 : 7
 ReqData0,114,2 : 65291
 ReqUse0,116 : 3
-ReqPos0,116 : 314
+ReqPos0,116 : 316
 ReqCount0,116 : 3
 ReqData0,116,0 : 65282
 ReqData0,116,1 : 7
@@ -375,13 +409,13 @@ ReqUse0,122 : 1
 ReqPos0,122 : 0
 ReqCount0,122 : 0
 ReqUse0,124 : 3
-ReqPos0,124 : 343
+ReqPos0,124 : 345
 ReqCount0,124 : 3
 ReqData0,124,0 : 65282
 ReqData0,124,1 : 7
 ReqData0,124,2 : 65291
 ReqUse0,125 : 3
-ReqPos0,125 : 348
+ReqPos0,125 : 350
 ReqCount0,125 : 3
 ReqData0,125,0 : 65282
 ReqData0,125,1 : 7
@@ -530,7 +564,7 @@ ReqPos3,1 : 18
 ReqCount3,1 : 3
 ReqData3,1,0 : 65295
 ReqData3,1,1 : 65282
-ReqData3,1,2 : 8
+ReqData3,1,2 : 60
 ReqUse3,6 : 3
 ReqPos3,6 : 64
 ReqCount3,6 : 4
@@ -561,7 +595,7 @@ ProjectMTXMDATACount : 24576
 ProjectMTXMDATAArray : 
 E_TileSET
 S_FileManagerSET
-stattextdicCount : 57
+stattextdicCount : 70
 stattextdickey0 : 711
 stattextdicvalue0 : Factory Requires:<10>   Command Center
 stattextdickey1 : 720
@@ -577,13 +611,13 @@ stattextdicvalue5 : <3>Machine Tools<10><4>Range: 0.3<10>Type: Normal<10>Cooldow
 stattextdickey6 : 230
 stattextdicvalue6 : <3>Bolt-Action Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 18
 stattextdickey7 : 232
-stattextdicvalue7 : <3>50mm Gun<10><4>Range: 5<10>Type: Explosive<10>Cooldown: 37
+stattextdicvalue7 : <3>50mm Gun<10><4>Range: 5<10>Type: Normal<10>Cooldown: 37
 stattextdickey8 : 238
 stattextdicvalue8 : <3>150mm Gun<10><4>Range: 7<10>Type: Explosive<10>Area: 1/20/40<10>Cooldown: 45
 stattextdickey9 : 235
 stattextdicvalue9 : <3>Air Defense Gun<4><10>Range: 6(+3)<10>Type: Normal<10>Cooldown: 30
 stattextdickey10 : 242
-stattextdicvalue10 : <3>Guided Missiles<4><10>Range: 7<10>Type: Normal<10>Area: 1/10/20<10>Cooldown: 60
+stattextdicvalue10 : <3>Guided Missiles<4><10>Range: 7<10>Type: Normal<10>Cooldown: 45
 stattextdickey11 : 296
 stattextdicvalue11 : <3>30mm Gunship MG<10><4>Range: 4<10>Type: Explosive<10>Area: 5/5/5<10>Cooldown: 12
 stattextdickey12 : 228
@@ -607,7 +641,7 @@ stattextdicvalue20 : x<1><3>X: <1>Build Bunker
 stattextdickey21 : 256
 stattextdicvalue21 : <3>88mm Gun<10><4>Range: 6<10>Type: Explosive<10>Cooldown: 30
 stattextdickey22 : 237
-stattextdicvalue22 : <3>76mm Air Defense Gun<4><10>Range: 6<10>Type: Normal<10>Area: 1/10/20<10>Cooldown: 30
+stattextdicvalue22 : <3>76mm Air Defense Gun<4><10>Range: 6 (+3)<10>Type: Normal<10>Cooldown: 6
 stattextdickey23 : 591
 stattextdicvalue23 : q<1><3>Q: <1>Train Civilian Engineer
 stattextdickey24 : 586
@@ -657,9 +691,9 @@ stattextdicvalue45 : d<2><3>D: <1>Research Charged Shells (Mobile AA Range)
 stattextdickey46 : 324
 stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (Jet Fighter Ability)
 stattextdickey47 : 292
-stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 4<10>Type: Explosive<10>Cooldown: 6
+stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 6
 stattextdickey48 : 313
-stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
+stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80(+8x)
 stattextdickey49 : 334
 stattextdicvalue49 : x<3><3>X: <1>Napalm Strike<10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey50 : 346
@@ -669,13 +703,39 @@ stattextdicvalue51 : Defensive Matrix:<10>   Requires Research
 stattextdickey52 : 339
 stattextdicvalue52 : x<3><3>X: <1>Defensive Matrix
 stattextdickey53 : 285
-stattextdicvalue53 : <3>150mm Gun<10><4>Range: 6 (+2)<10>Type: Explosive<10>Cooldown: 45
+stattextdicvalue53 : <3>150mm Gun<10><4>Range: 6 (+2)<10>Type: Normal<10>Cooldown: 45
 stattextdickey54 : 410
 stattextdicvalue54 : <4>Class: Infantry<10>Size: Small
 stattextdickey55 : 411
 stattextdicvalue55 : <4>Class: Vehicle<10>Size: Large
 stattextdickey56 : 412
 stattextdicvalue56 : <4>Class: Aircraft<10>Size: Large
+stattextdickey57 : 259
+stattextdicvalue57 : <3>Claws<4><10>Range: 0.5<10>Type: Normal<10>Cooldown: 8
+stattextdickey58 : 262
+stattextdicvalue58 : <3>Spit<4><10>Range: 4<10>Type: Explosive<10>Cooldown: 8
+stattextdickey59 : 264
+stattextdicvalue59 : <3>Bite<4><10>Range: 0.8<10>Type: Normal<10>Cooldown: 15
+stattextdickey60 : 266
+stattextdicvalue60 : <3>Claws<4><10>Range: 0.1<10>Type: Normal<10>Cooldown: 15
+stattextdickey61 : 272
+stattextdicvalue61 : <3>Talons<4><10>Range: 3<10>Type: Normal<10>Cooldown: 25
+stattextdickey62 : 270
+stattextdicvalue62 : <3>Acid<4><10>Range: 5<10>Type: Explosive<10>Cooldown: 30
+stattextdickey63 : 279
+stattextdicvalue63 : <3>Swarm<4><10>Range: 0.1<10>Type: Normal<10><6>Suicide
+stattextdickey64 : 261
+stattextdicvalue64 : <3>Claws<4><10>Range: 0.5<10>Type: Normal<10>Cooldown: 15
+stattextdickey65 : 263
+stattextdicvalue65 : <3>Assimilated Rifle<4><10>Range: 5<10>Type: Explosive<10>Cooldown: 18
+stattextdickey66 : 260
+stattextdicvalue66 : <3>Assimilated Attack Pattern<4><10>Range: 1<10>Type: Normal<10>Cooldown: 4
+stattextdickey67 : 265
+stattextdicvalue67 : <3>Assimilated Tusks<4><10>Range: 0.8<10>Type: Normal<10>Cooldown: 10
+stattextdickey68 : 273
+stattextdicvalue68 : <3>Assimilated Talons<4><10>Range: 3<10>Type: Normal<10>Cooldown: 16
+stattextdickey69 : 271
+stattextdicvalue69 : <3>Assimilated Acid<4><10>Range: 5<10>Type: Explosive<10>Cooldown: 30
 wireuse : True
 wireframData106 : 110
 E_FileManagerSET
@@ -711,7 +771,7 @@ S_PluginSET
 soundstopper : False
 scmloader : False
 noAirColsion : False
-unlimiter : False
+unlimiter : True
 keepSTR : False
 eudTurbo : False
 iscriptPatcher : 
@@ -719,7 +779,7 @@ iscriptPatcheruse : False
 unpatcher : 
 unpatcheruse : False
 nqcuse : False
-nqcunit : 
+nqcunit : 58
 nqclocs : 
 nqccommands : 
 grpinjectoruse : False

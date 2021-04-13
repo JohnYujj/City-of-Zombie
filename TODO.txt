@@ -1,23 +1,26 @@
----New Physics Lab Researches---
-Marine Stim -- Marine Range -- SCV DMAtrix
-Vulture Speed -- Tank Range -- Goliath Range
-Wraith Ability -- Arbiter Speed
+-Record Voicedogs for Intro 
+  Intro Script:
+  penny: dog dog     dog dog dog dog 
+  lazy: dog
+  fr0st: looks like penny is a dog
+  fr0st: oooh my god i need a re
+  >>Give Vision (by giving BC), Showing Spinning Koalakopter BC
+  penny: nowai?
+  lazy: you're a dog
+  >>battlecruiser crashes (Crashed Norad2)
+  lazy: oh nowai looks like we actually need a re
+  >>units come out of bc
 
--Rename Marine Range = "Enhanced Rifling"
--Add DMatrix Spell to SCV = "Defensive Matrix"
--Rename Vulture Speed = "Advanced Turbine Engine"
--Change Tank Turret to Goon Base ID
-  -Add Goon Range Upgrade to Physics Lab = "High Caliber Barrel"
--Add Wraith Ability = "Napalm Strike" (EMP Missile dealing damage, Costs 150 Energy)
--Change Arb to Scout Base ID
-  -Add Scout Speed Upgrade to Physics Lab = "Gunship Thrusters"
+Game Object: Defend Crashed BC
 
+-Remove Goliath Splash
+-Increase Devouring One Attack Rate
+-Add Text to Zombie Weapon Info
 
--make DMat Not Researched on SCMDraft
--Adjust SCMDraft Costs 
+-Remove Gaps in Walls for rest of the map
 
-
-
-
-
-
+-Separate Tech Difficulty & Spawn Difficulty
+New Difficulty Selection Mode: Robotics
+  Build Shuttle to Increase SPAWN difficulty
+  Build Obs to Increase TECH difficulty
+  Build Reaver to Start Game
