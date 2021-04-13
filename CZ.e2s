@@ -77,8 +77,8 @@ S_DatEditSET
 0,26,66,-3
 0,27,66,-1
 0,36,1,4
-0,36,5,16
-0,36,7,-16
+0,36,5,9
+0,36,7,-12
 0,36,37,-4
 0,36,38,-6
 0,36,39,-8
@@ -89,7 +89,7 @@ S_DatEditSET
 0,36,66,-29
 0,36,106,-64
 0,36,125,-32
-0,37,5,16
+0,37,5,9
 0,37,7,-16
 0,37,37,-4
 0,37,38,-6
@@ -101,8 +101,8 @@ S_DatEditSET
 0,37,66,-29
 0,37,106,-32
 0,40,1,2
-0,40,5,8
-0,40,7,-8
+0,40,5,4
+0,40,7,-6
 0,40,37,-2
 0,40,38,-3
 0,40,39,-4
@@ -113,7 +113,7 @@ S_DatEditSET
 0,40,66,-14
 0,40,106,-27
 0,40,125,-1
-0,41,5,8
+0,41,5,4
 0,41,7,-8
 0,41,37,-1
 0,41,38,-3
@@ -126,8 +126,8 @@ S_DatEditSET
 0,41,106,-10
 0,41,125,7
 0,42,1,2
-0,42,5,8
-0,42,7,-8
+0,42,5,5
+0,42,7,-6
 0,42,37,-2
 0,42,38,-3
 0,42,39,-4
@@ -138,7 +138,7 @@ S_DatEditSET
 0,42,66,-15
 0,42,106,-27
 0,42,125,-1
-0,43,5,8
+0,43,5,5
 0,43,7,-8
 0,43,37,-3
 0,43,38,-3
@@ -234,7 +234,7 @@ S_DatEditSET
 1,16,15,38
 1,16,29,10
 1,16,66,15
-1,16,73,-18
+1,16,73,-24
 1,18,66,-112
 1,18,73,16
 1,20,4,-20
@@ -654,7 +654,7 @@ stattextdicvalue45 : d<2><3>D: <1>Research Charged Shells (Mobile AA Range)
 stattextdickey46 : 324
 stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (Jet Fighter Ability)
 stattextdickey47 : 292
-stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 4<10>Type: Explosive<10>Cooldown: 12
+stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 4<10>Type: Explosive<10>Cooldown: 6
 stattextdickey48 : 313
 stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey49 : 334
