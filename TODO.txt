@@ -13,12 +13,6 @@
 
 Game Object: Defend Crashed BC
 
--Remove Goliath Splash
--Increase Devouring One Attack Rate
--Add Text to Zombie Weapon Info
-
--Remove Gaps in Walls for rest of the map
-
 -Separate Tech Difficulty & Spawn Difficulty
 New Difficulty Selection Mode: Robotics
   Build Shuttle to Increase SPAWN difficulty

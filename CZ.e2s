@@ -177,10 +177,11 @@ S_DatEditSET
 0,49,70,-2
 0,50,106,-20
 0,50,115,24
-0,50,120,24
 0,51,0,-2
 0,51,1,-2
-0,51,5,8
+0,51,2,-4
+0,51,3,-4
+0,51,5,-4
 0,51,7,-2
 0,51,11,-2
 0,51,34,-2
@@ -214,7 +215,7 @@ S_DatEditSET
 1,5,8,32
 1,5,15,64
 1,5,29,-32
-1,5,32,-32
+1,5,32,32
 1,5,36,17
 1,5,46,-96
 1,5,47,-96
@@ -233,7 +234,7 @@ S_DatEditSET
 1,7,4,1
 1,7,8,2
 1,7,15,2
-1,7,32,-1
+1,7,32,2
 1,7,46,-2
 1,7,47,-2
 1,7,66,2
@@ -631,7 +632,7 @@ stattextdicvalue15 : q<1><3>Q: <1>Build Supply Center
 stattextdickey16 : 654
 stattextdicvalue16 : s<1><3>S: <1>Build Aircraft Factory
 stattextdickey17 : 650
-stattextdicvalue17 : z<1><3>Z: <1>Build Missile Turret
+stattextdicvalue17 : z<1><3>Z: <1>Build Artillery Battery
 stattextdickey18 : 653
 stattextdicvalue18 : a<1><3>A: <1>Build Vehicle Factory
 stattextdickey19 : 655
@@ -653,15 +654,15 @@ stattextdicvalue26 : a<1><3>A: <1>Train Combat Medic
 stattextdickey27 : 588
 stattextdicvalue27 : q<1><3>Q: <1>Construct Light Tank
 stattextdickey28 : 590
-stattextdicvalue28 : w<1><3>W: <1>Construct MBT
+stattextdicvalue28 : w<1><3>W: <1>Construct Main Battle Tank
 stattextdickey29 : 589
-stattextdicvalue29 : e<1><3>E: <1>Construct Air-Defense Gun
+stattextdicvalue29 : e<1><3>E: <1>Construct Mobile Air-Defense Battery
 stattextdickey30 : 592
 stattextdicvalue30 : q<1><3>Q: <1>Construct Jet Fighter
 stattextdickey31 : 594
 stattextdicvalue31 : w<1><3>W: <1>Construct Transport Heli
 stattextdickey32 : 604
-stattextdicvalue32 : e<1><3>E: <1>Construct Gunship
+stattextdicvalue32 : e<1><3>E: <1>Construct Helicopter Gunship
 stattextdickey33 : 462
 stattextdicvalue33 : q<2><3>Q: <1>Upgrade Infantry Weapons
 stattextdickey34 : 455
@@ -693,7 +694,7 @@ stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (Jet Fighter Ability)
 stattextdickey47 : 292
 stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 6
 stattextdickey48 : 313
-stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80(+8x)
+stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Range: 9<10>Type: Penetrating<10>Area: 20/50/80<10>Damage: 50(+5x)
 stattextdickey49 : 334
 stattextdicvalue49 : x<3><3>X: <1>Napalm Strike<10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey50 : 346
