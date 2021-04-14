@@ -1,3 +1,4 @@
+
 -Record Voicedogs for Intro 
   Intro Script:
   penny: dog dog     dog dog dog dog 
@@ -10,11 +11,3 @@
   >>battlecruiser crashes (Crashed Norad2)
   lazy: oh nowai looks like we actually need a re
   >>units come out of bc
-
-Game Object: Defend Crashed BC
-
--Separate Tech Difficulty & Spawn Difficulty
-New Difficulty Selection Mode: Robotics
-  Build Shuttle to Increase SPAWN difficulty
-  Build Obs to Increase TECH difficulty
-  Build Reaver to Start Game
