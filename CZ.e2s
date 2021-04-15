@@ -93,10 +93,12 @@ S_DatEditSET
 0,26,60,1
 0,26,66,-3
 0,27,66,-1
-0,36,0,-2
-0,36,2,5
+0,36,0,2
+0,36,1,4
+0,36,2,3
 0,36,5,8
-0,36,7,-12
+0,36,7,-16
+0,36,16,4
 0,36,34,-2
 0,36,37,-4
 0,36,38,-6
@@ -112,12 +114,12 @@ S_DatEditSET
 0,36,66,-29
 0,36,106,-64
 0,36,125,-32
-0,37,0,-5
-0,37,1,-7
-0,37,2,5
+0,37,0,-1
+0,37,1,-3
+0,37,2,3
 0,37,5,8
 0,37,7,-16
-0,37,16,-7
+0,37,16,-3
 0,37,34,-5
 0,37,37,-4
 0,37,38,-6
@@ -132,10 +134,12 @@ S_DatEditSET
 0,37,55,-29
 0,37,66,-29
 0,37,106,-32
-0,40,0,-1
-0,40,2,2
+0,40,0,1
+0,40,1,2
+0,40,2,1
 0,40,5,4
-0,40,7,-6
+0,40,7,-8
+0,40,16,2
 0,40,34,-1
 0,40,37,-2
 0,40,38,-3
@@ -152,12 +156,11 @@ S_DatEditSET
 0,40,106,-27
 0,40,124,-2
 0,40,125,-1
-0,41,0,-2
-0,41,1,-3
-0,41,2,2
+0,41,1,-1
+0,41,2,1
 0,41,5,4
 0,41,7,-8
-0,41,16,-3
+0,41,16,-1
 0,41,34,-2
 0,41,37,-1
 0,41,38,-3
@@ -174,10 +177,12 @@ S_DatEditSET
 0,41,106,-10
 0,41,124,-18
 0,41,125,7
-0,42,0,-1
-0,42,2,3
+0,42,0,1
+0,42,1,2
+0,42,2,2
 0,42,5,4
-0,42,7,-6
+0,42,7,-8
+0,42,16,2
 0,42,34,-1
 0,42,37,-2
 0,42,38,-3
@@ -194,12 +199,12 @@ S_DatEditSET
 0,42,106,-27
 0,42,124,-2
 0,42,125,-1
-0,43,0,-3
-0,43,1,-4
-0,43,2,3
+0,43,0,-1
+0,43,1,-2
+0,43,2,2
 0,43,5,4
 0,43,7,-8
-0,43,16,-4
+0,43,16,-2
 0,43,34,-3
 0,43,37,-3
 0,43,38,-3
@@ -244,7 +249,7 @@ S_DatEditSET
 1,1,0,10
 1,1,3,-1
 1,1,4,3
-1,1,8,9
+1,1,8,56
 1,1,11,15
 1,1,15,2
 1,1,29,2
@@ -313,8 +318,8 @@ S_DatEditSET
 1,16,0,-7
 1,16,2,-4
 1,16,3,-8
-1,16,4,7
-1,16,8,-16
+1,16,4,-5
+1,16,8,-14
 1,16,11,8
 1,16,15,15
 1,16,29,15
@@ -689,19 +694,19 @@ stattextdicvalue4 : Goliath Requires:<10>   Attached Machine Shop
 stattextdickey5 : 240
 stattextdicvalue5 : <3>Machine Tools<10><4>Range: 0.3<10>Type: Normal<10>Cooldown: 15
 stattextdickey6 : 230
-stattextdicvalue6 : <3>Bolt-Action Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 18
+stattextdicvalue6 : <22>Colt <3>AR<4>-<6>15 <30>Sporting Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 18
 stattextdickey7 : 232
-stattextdicvalue7 : <3>50mm Gun<10><4>Range: 5<10>Type: Normal<10>Cooldown: 37
+stattextdicvalue7 : <4>30<6>mm <30>Bushmaster II<10><4>Range: 5<10>Type: Normal<10>Cooldown: 25
 stattextdickey8 : 238
-stattextdicvalue8 : <3>150mm Gun<10><4>Range: 7<10>Type: Explosive<10>Area: 1/20/40<10>Cooldown: 45
+stattextdicvalue8 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 7<10>Type: Explosive<10>Area: 1/20/40<10>Cooldown: 45
 stattextdickey9 : 235
 stattextdicvalue9 : <3>Air Defense Gun<4><10>Range: 6(+3)<10>Type: Normal<10>Cooldown: 30
 stattextdickey10 : 242
-stattextdicvalue10 : <3>Guided Missiles<4><10>Range: 9<10>Type: Normal<10>Cooldown: 37
+stattextdicvalue10 : <6>LAU<4>-<3>142/A <30>Missiles<4><10>Range: 9<10>Type: Normal<10>Cooldown: 37
 stattextdickey11 : 296
 stattextdicvalue11 : <3>30mm Gunship MG<10><4>Range: 4<10>Type: Explosive<10>Area: 5/5/5<10>Cooldown: 12
 stattextdickey12 : 228
-stattextdicvalue12 : <3>Automatic Rifle<4><10>Range: 4 (+1)<10>Type: Concussive<10>Cooldown: 8
+stattextdicvalue12 : <22>Colt <3>M4A1 <30>Carbine<4><10>Range: 4 (+1)<10>Type: Concussive<10>Cooldown: 8
 stattextdickey13 : 648
 stattextdicvalue13 : w<1><3>W: <1>Build Recruitment Center
 stattextdickey14 : 647
@@ -719,29 +724,29 @@ stattextdicvalue19 : d<1><3>D: <1>Build Research Facility
 stattextdickey20 : 652
 stattextdicvalue20 : x<1><3>X: <1>Build Bunker
 stattextdickey21 : 256
-stattextdicvalue21 : <3>88mm Gun<10><4>Range: 6<10>Type: Explosive<10>Cooldown: 30
+stattextdicvalue21 : <3>FlaK <04>88<6>mm<10><4>Range: 6<10>Type: Explosive<10>Cooldown: 30
 stattextdickey22 : 237
-stattextdicvalue22 : <3>76mm Air Defense Gun<4><10>Range: 6 (+3)<10>Type: Normal<10>Cooldown: 6
+stattextdicvalue22 : <6>F1M<4>-<3>92 <30>Stinger Missiles<4><10>Range: 6 (+3)<10>Type: Normal<10>Cooldown: 8
 stattextdickey23 : 591
-stattextdicvalue23 : q<1><3>Q: <1>Train Civilian Engineer
+stattextdicvalue23 : q<1><3>Q: <1>Train Support Engineers
 stattextdickey24 : 586
-stattextdicvalue24 : w<1><3>W: <1>Train Armed Civilian
+stattextdicvalue24 : w<1><3>W: <1>Train Armed Civilians
 stattextdickey25 : 585
-stattextdicvalue25 : e<1><3>E: <1>Train Soldier
+stattextdicvalue25 : e<1><3>E: <1>Train Infantry
 stattextdickey26 : 1289
-stattextdicvalue26 : a<1><3>A: <1>Train Combat Medic
+stattextdicvalue26 : a<1><3>A: <1>Train Combat Medics
 stattextdickey27 : 588
-stattextdicvalue27 : q<1><3>Q: <1>Construct Light Tank
+stattextdicvalue27 : q<1><3>Q: <1>Construct IAV Stryker
 stattextdickey28 : 590
-stattextdicvalue28 : w<1><3>W: <1>Construct Main Battle Tank
+stattextdicvalue28 : w<1><3>W: <1>Construct M1 Abrams
 stattextdickey29 : 589
-stattextdicvalue29 : e<1><3>E: <1>Construct Mobile Air-Defense Battery
+stattextdicvalue29 : e<1><3>E: <1>Construct Avenger Air-Defense System
 stattextdickey30 : 592
-stattextdicvalue30 : q<1><3>Q: <1>Construct Jet Fighter
+stattextdicvalue30 : q<1><3>Q: <1>Construct F-22 Raptor
 stattextdickey31 : 594
-stattextdicvalue31 : w<1><3>W: <1>Construct Transport Heli
+stattextdicvalue31 : w<1><3>W: <1>Construct UH-60 Blackhawk
 stattextdickey32 : 604
-stattextdicvalue32 : e<1><3>E: <1>Construct Helicopter Gunship
+stattextdicvalue32 : e<1><3>E: <1>Construct AC-130 Spectre
 stattextdickey33 : 462
 stattextdicvalue33 : q<2><3>Q: <1>Upgrade Infantry Weapons
 stattextdickey34 : 455
@@ -757,21 +762,21 @@ stattextdicvalue38 : x<2><3>X: <1>Upgrade Aircraft Armor
 stattextdickey39 : 328
 stattextdicvalue39 : e<4><3>E: <1>Research Shock Grenade (SF Spell)
 stattextdickey40 : 488
-stattextdicvalue40 : s<2><3>S: <1>Research High-Velocity Barrel (MBT Range)
+stattextdicvalue40 : s<2><3>S: <1>Research High-Velocity Barrel (Abrams Range)
 stattextdickey41 : 471
-stattextdicvalue41 : w<2><3>W: <1>Research Precision Rifling (Soldier Range)
+stattextdicvalue41 : w<2><3>W: <1>Research Precision Rifling (Infantry Range)
 stattextdickey42 : 472
-stattextdicvalue42 : a<2><3>A: <1>Research Advanced Turbine Engine (LT Speed)
+stattextdicvalue42 : a<2><3>A: <1>Research Advanced Turbine Engine (Stryker Speed)
 stattextdickey43 : 497
-stattextdicvalue43 : x<2><3>X: <1>Research Gunship Thrusters (Gunship Speed)
+stattextdicvalue43 : x<2><3>X: <1>Research Gunship Thrusters (AC-130 Speed)
 stattextdickey44 : 323
 stattextdicvalue44 : q<4><3>Q: <1>Research Defensive Matrix (Engineer Spell)
 stattextdickey45 : 1286
-stattextdicvalue45 : d<2><3>D: <1>Research Charged Shells (Mobile AA Range)
+stattextdicvalue45 : d<2><3>D: <1>Research Charged Shells (Avenger Range)
 stattextdickey46 : 324
-stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (Jet Fighter Ability)
+stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (F-22 Ability)
 stattextdickey47 : 292
-stattextdicvalue47 : <3>30mm Gunship Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 6
+stattextdicvalue47 : <3>40<6>mm <30>Bofors Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 6
 stattextdickey48 : 313
 stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Range: 9<10>Type: Penetrating<10>Area: 20/50/80<10>Damage: 50(+5x)
 stattextdickey49 : 334
@@ -817,7 +822,7 @@ stattextdicvalue68 : <3>Assimilated Talons<4><10>Range: 3<10>Type: Normal<10>Coo
 stattextdickey69 : 271
 stattextdicvalue69 : <3>Assimilated Acid<4><10>Range: 4<10>Type: Explosive<10>Cooldown: 30
 stattextdickey70 : 231
-stattextdicvalue70 : <3>Anti-Materiel Rifle<10><4>Range: 5<10>Type: Normal<10>Cooldown: 14
+stattextdicvalue70 : <25>Barett <6>M82 <30> Anti-Materiel Rifle<10><4>Range: 5<10>Type: Normal<10>Cooldown: 14
 stattextdickey71 : 1250
 stattextdicvalue71 : Shock Grenade:<10>   Requires Research
 stattextdickey72 : 1248
