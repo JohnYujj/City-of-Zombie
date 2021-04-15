@@ -74,7 +74,7 @@ Recommended Strategy:
 -Block Entrances with Bunkers (They Completely Block the Road)
 -At least 1 player expands with units to secure more resources and technology
   -Be careful of elite zombies guarding
--Fighters recommended to for Mutalisk and Guardian
+-Fighters recommended for Mutalisk and Guardian
   -Muta may decide to attack your economy, fighters can chase them through the city
 -Tanks recommended to destroy stronger defenses (Cannons) and Ultralisks
 -Team combination of Air/Tank/Infantry is good
