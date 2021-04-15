@@ -1,23 +1,87 @@
--Scaling Difficulty Option (Difficulty Increases Quantity of Zombies)
-Quality of Zombies Depends on Tech Points
-Quantity of Zombies Depends on Pop Points
+The game takes place after the Fictional Zombie Infection Virus
 
-Zombies Default Gain 100 Pop Points Per 10s-3.33s (Based on Number of Players)
--Each Difficulty Increases Pop Gain by 10
+The two ways to win are
+1. Defend the D.O.G (Crashed Norad) for 1 Hour Real Time (90:00 Countdown Timer)
+or
+2. Destroy the Infected Overmind
 
-Zombies Default Gain 100 Tech Points Per 10s
--Each Difficulty Increases Tech Gain by 10
+Players start with some units, and must explore the city to gain material and supply
+Gas -> Minerals
+Refinery Adds 12 Supply Each
+Infantry and SCVS produced from Barracks
+Depots collect Resources (Like Command Center)
 
-@100 Pop Point, Zombies Will Spawn 5 Units & Store 5 "Wave Points"
-@100 Wave Point, Zombies Spawn a Wave
+In order to build advanced Equipment (Vehicles and Aircraft) players must expand and secure Addons
+In order to upgrade basic stats, secure a Covert Ops
+In order to research technologies, secure a Physics Lab
 
-Tech Levels:
-0-3k: 4Brood,1Ling & Waves of Ling/Hyd
-3-6k: 2Brood,2Ling,1Hyd & Waves of Ultra/Hyd
-6-9k: 1Brood,2Ling,1Hyd,1Ultra & Waves of Muta
-9-12k: 3Ling,1Ultra,1Muta & Waves of Guardian/Muta
-12-15k: 3Kerrigan,1Muta,1Scourge & Waves of HeroLing/Duran
-15k-18k: 3Kerrigan,1Duran,1Guardian & Waves of Hero Muta/Scourge
-18k-21k: 2Kerrigan,1HeroLing,2Duran & Waves of Hero Guard/Scourge
-21k-24k: 1Kerrigan,3HeroLing,1HeroHyd & Waves of Torrasque/Hero Muta
-24k+: 3HeroLing,1HeroHyd,1Torrasque & Waves of Hero Guard/Hero Muta/Torrasque
+
+Zombies Continually Spawn, but also send large hordes for a concentrated attack
+Zombies evolve and grow stronger over time
+There is a difficulty selector at the start. Difficulty affects frequency of spawns and speed of zombie evolution (stronger zombies)
+
+Mind Control to increase Difficulty, Feedback to Start Game
+
+
+
+Available Units & Equipment
+
+Support Engineer (SCV)
+-Handles Resource Gathering and Construction
+-Supports with Repair and Matrix(Req. Research)
+
+Armed Civilian (Ghost)
+-Cheap Early Manpower
+
+Infantry (Marine)
+-Trained Soldiers, the Basic Unit in Late Game
+-More Efficient with Upgrades
+-Concussive Damage
+
+Special Forces (Kerrigan)
+-Elite Soldiers, Very Expensive
+-Shock Grenade Spell (Grenade which Applies Maelstrom)
+-Normal Damage
+
+IAV Stryker
+-Infantry Support Vehicle
+-High DPS output, but low range/firepower
+
+M1 Abrams
+-Main Tank
+-High Damage to deal with heavy enemies and defenses
+-High durability
+-Very high range with Range Upgrade
+
+Avenger
+-Air Defense Gun
+-Surface Anti-Air
+
+F-22 Raptor
+-Jet Fighter, very fast and high range
+-Modern Jets engage at long range and retreat, strong kiting, weak dogfighting
+-Has no ground weapon, but may research "Napalm Strike" spell
+
+AC-130 Spectre
+-Ground Support Gunship
+-Attacks ground, slower than Jet Fighter
+-Speed Upgrade Available
+
+
+
+Recommended Strategy:
+-First things to build are Barracks and Refinery
+-Block Entrances with Bunkers (They Completely Block the Road)
+-At least 1 player expands with units to secure more resources and technology
+  -Be careful of elite zombies guarding
+-Fighters recommended to for Mutalisk and Guardian
+  -Muta may decide to attack your economy, fighters can chase them through the city
+-Tanks recommended to destroy stronger defenses (Cannons) and Ultralisks
+-Team combination of Air/Tank/Infantry is good
+
+Recommended Difficulty:
+Difficulty 0 = Practice/Sandbox
+Difficulty ~4 = Recommended
+Difficulty ~8 = Hard Challenge
+There is no limit to difficulty, each level is approximately 10% harder
+
