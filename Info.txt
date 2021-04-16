@@ -29,59 +29,78 @@ Available Units & Equipment
 Support Engineer (SCV)
 -Handles Resource Gathering and Construction
 -Supports with Repair and Matrix(Req. Research)
+-Costs 0.5 Supply
 
 Armed Civilian (Ghost)
 -Cheap Early Manpower
+-Very Mineral Efficient, Bad Supply Efficiency
 
 Infantry (Marine)
 -Trained Soldiers, the Basic Unit in Late Game
--More Efficient with Upgrades
+-Most Efficient with Upgrades
 -Concussive Damage
 
+Combat Medic (Medic)
+-Supports Infantry with Healing
+-Cheap, but Limited Energy
+-Zombies do target them
+
 Special Forces (Kerrigan)
--Elite Soldiers, Very Expensive
+-Expensive Infantry, intended for support
+-Normal Damage, but lower DPS than Marine vs Small
 -Shock Grenade Spell (Grenade which Applies Maelstrom)
--Normal Damage
 
-IAV Stryker
+IAV Stryker (Vulture)
 -Infantry Support Vehicle
--High DPS output, but low range/firepower
+-High DPS output, but Low Range
+-Very efficient early game
 
-M1 Abrams
--Main Tank
--High Damage to deal with heavy enemies and defenses
--High durability
--Very high range with Range Upgrade
+M1 Abrams (Tank)
+-Can be used as either Tank or Artillery
+-High Armor, can even withstand endgame enemies with full upgrades
+-High Range with research, good at destroying static defenses
 
-Avenger
+Avenger (Goliath)
 -Air Defense Gun
--Surface Anti-Air
+-Strong Anti-Air DPS, but has difficulty moving through the city
 
-F-22 Raptor
+F-22 Raptor (Corsair)
 -Jet Fighter, very fast and high range
 -Modern Jets engage at long range and retreat, strong kiting, weak dogfighting
+-Lower DPS than Avenger (Goliath) but can reposition way faster
 -Has no ground weapon, but may research "Napalm Strike" spell
 
-AC-130 Spectre
--Ground Support Gunship
--Attacks ground, slower than Jet Fighter
--Speed Upgrade Available
+AC-130 Spectre (Scout)
+-Ground Support Unit, Mobile DPS Support
+-Slower than Jet, Speed upgrade available
+
+UH-60 Blackhawk (Dropship)
+-Transport/Utility Aircraft
+-Cheap and Low Supply Cost
+-Cannot Pick Up Tanks/AA, only Infantry
 
 
 
 Recommended Strategy:
--First things to build are Barracks and Refinery
--Block Entrances with Bunkers (They Completely Block the Road)
+-First things to build are 1 Barracks and 2 Refinery and 1 Bunker
+  -In 4 Player, one person will have to expand for Refinery
+-Block Entrances with Bunkers (They Completely Block the Road of Zombies)
 -At least 1 player expands with units to secure more resources and technology
-  -Be careful of elite zombies guarding
--Fighters recommended for Mutalisk and Guardian
-  -Muta may decide to attack your economy, fighters can chase them through the city
--Tanks recommended to destroy stronger defenses (Cannons) and Ultralisks
--Team combination of Air/Tank/Infantry is good
+  -Sunkens are Weak, but be careful of elite zombies guarding
+
+-After Defense set up, expand with Infantry and secure production
+-Vulture Early Game to defend/expand on higher difficulties
+-Tanks Early-Middle Game to destroy stronger defenses (Cannons) and Ultralisks
+-Fighters Middle Game for Mutalisk and Guardian
+  -Muta may decide to attack your economy, fighters can chase them through the city while Goliaths/Turrets get stuck
+
+-Expand to middle of map for more resources and production and upgrades
+-You will need a cominbation of Infantry + Tanks + Air to survive later stages
+-Infantry player can use dropships in late game
 
 Recommended Difficulty:
 Difficulty 0 = Practice/Sandbox
-Difficulty ~4 = Recommended
+Difficulty ~4 = Normal
 Difficulty ~8 = Hard Challenge
-There is no limit to difficulty, each level is approximately 10% harder
+There is no Limit to Difficulty (But I think it will become impossible to win by 10+)
 
