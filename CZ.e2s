@@ -85,12 +85,13 @@ S_DatEditSET
 0,24,106,-3
 0,24,124,-4
 0,24,125,-3
+0,25,11,-1
 0,25,48,2
 0,25,53,2
 0,25,54,2
-0,25,60,-4
+0,25,60,-5
 0,25,66,-4
-0,25,70,-4
+0,25,70,-5
 0,25,124,-59
 0,25,125,-59
 0,25,126,-59
@@ -300,17 +301,17 @@ S_DatEditSET
 1,5,81,-32
 1,5,107,-128
 1,6,13,-53
+1,6,15,-1
 1,6,29,-52
-1,6,32,-51
+1,6,32,-52
 1,6,66,-5
-1,6,73,-5
+1,6,73,-6
 1,7,0,-1
 1,7,3,1
 1,7,4,1
 1,7,8,2
 1,7,10,2
 1,7,15,2
-1,7,32,2
 1,7,46,-2
 1,7,47,-2
 1,7,66,2
@@ -332,10 +333,10 @@ S_DatEditSET
 1,13,11,40
 1,13,32,80
 1,14,29,10
-1,14,32,80
+1,14,32,120
 1,14,107,-8
 1,15,29,4
-1,15,32,8
+1,15,32,10
 1,16,0,-7
 1,16,2,-4
 1,16,3,-8
@@ -345,14 +346,13 @@ S_DatEditSET
 1,16,11,8
 1,16,15,15
 1,16,29,15
-1,16,35,-2
+1,16,35,2
 1,16,36,-2
 1,16,38,-7
-1,16,39,-3
+1,16,39,-5
 1,16,41,-5
 1,16,46,-12
 1,16,47,-20
-1,16,48,-5
 1,16,49,-19
 1,16,53,-11
 1,16,66,15
@@ -395,7 +395,7 @@ BtnData1 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230
 BtnUse7 : True
 BtnData7 : 1,228,4359792,4342848,0,0,664,0,2,229,4359744,4338672,0,0,665,0,3,230,4359696,4342656,0,0,666,0,4,232,4359648,4340688,0,0,677,0,5,231,4359584,4340592,0,0,675,0,6,233,4359296,4339552,0,0,676,0,7,234,4360720,4561648,0,239,678,0,8,247,4363488,4341616,6,6,340,350,9,236,4358928,4338672,0,0,700,0,
 BtnUse16 : True
-BtnData16 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,381,4363488,4341616,30,30,1249,1251,
+BtnData16 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,7,381,4363488,4341616,30,30,1249,1251,
 BtnUse60 : True
 BtnData60 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,8,241,4363488,4341616,1,1,314,347,
 BtnUse106 : True
@@ -780,13 +780,13 @@ stattextdicvalue31 : w<1><3>W: <1>Construct UH-60 Blackhawk
 stattextdickey32 : 604
 stattextdicvalue32 : e<1><3>E: <1>Construct AC-130 Spectre
 stattextdickey33 : 462
-stattextdicvalue33 : q<2><3>Q: <1>Upgrade Infantry Weapons
+stattextdicvalue33 : q<2><3>Q: <1>Upgrade Light Weapons
 stattextdickey34 : 455
 stattextdicvalue34 : w<2><3>W: <1>Upgrade Infantry Armor
 stattextdickey35 : 463
-stattextdicvalue35 : a<2><3>A: <1>Upgrade Vehicle Weapons
+stattextdicvalue35 : a<2><3>A: <1>Upgrade Heavy Weapons
 stattextdickey36 : 456
-stattextdicvalue36 : s<2><3>S: <1>Upgrade Vehicle Armor
+stattextdicvalue36 : s<2><3>S: <1>Upgrade Composite Armor
 stattextdickey37 : 464
 stattextdicvalue37 : z<2><3>Z: <1>Upgrade Aircraft Weapons
 stattextdickey38 : 457
@@ -810,7 +810,7 @@ stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (F-22 Ability)
 stattextdickey47 : 292
 stattextdicvalue47 : <3>40<6>mm <30>Bofors Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 6
 stattextdickey48 : 313
-stattextdicvalue48 : x<3><4>X: <3>Napalm Strike<4><10>Range: 9<10>Type: Penetrating<10>Area: 20/50/80<10>Damage: 50(+5x)
+stattextdicvalue48 : q<3><4>Q: <3>Napalm Strike<4><10>Range: 9<10>Type: Concussive<10>Area: 20/50/80<10>Damage: 120(+10x)
 stattextdickey49 : 334
 stattextdicvalue49 : x<3><3>X: <1>Napalm Strike<10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey50 : 346
@@ -818,7 +818,7 @@ stattextdicvalue50 : Napalm Strike:<10>   Requires Research
 stattextdickey51 : 349
 stattextdicvalue51 : Defensive Matrix:<10>   Requires Research
 stattextdickey52 : 339
-stattextdicvalue52 : x<3><3>X: <1>Defensive Matrix
+stattextdicvalue52 : q<3><3>Q: <1>Defensive Matrix
 stattextdickey53 : 285
 stattextdicvalue53 : <3>150mm Gun<10><4>Range: 6 (+2)<10>Type: Normal<10>Cooldown: 45
 stattextdickey54 : 410
@@ -828,7 +828,7 @@ stattextdicvalue55 : <4>Class: Vehicle<10>Size: Large
 stattextdickey56 : 412
 stattextdicvalue56 : <4>Class: Aircraft<10>Size: Large
 stattextdickey57 : 259
-stattextdicvalue57 : <3>Claws<4><10>Range: 0.5<10>Type: Normal<10>Cooldown: 6
+stattextdicvalue57 : <3>Claws<4><10>Range: 0.5<10>Type: Normal<10>Cooldown: 10
 stattextdickey58 : 262
 stattextdicvalue58 : <3>Spit<4><10>Range: 4<10>Type: Explosive<10>Cooldown: 8
 stattextdickey59 : 264
@@ -836,7 +836,7 @@ stattextdicvalue59 : <3>Bite<4><10>Range: 0.8<10>Type: Normal<10>Cooldown: 15
 stattextdickey60 : 266
 stattextdicvalue60 : <3>Claws<4><10>Range: 0.3<10>Type: Normal<10>Cooldown: 15
 stattextdickey61 : 272
-stattextdicvalue61 : <3>Talons<4><10>Range: 3<10>Type: Normal<10>Cooldown: 25
+stattextdicvalue61 : <3>Talons<4><10>Range: 3<10>Type: Normal<10>Cooldown: 30
 stattextdickey62 : 270
 stattextdicvalue62 : <3>Acid<4><10>Range: 5<10>Type: Explosive<10>Cooldown: 18
 stattextdickey63 : 279
@@ -844,7 +844,7 @@ stattextdicvalue63 : <3>Swarm<4><10>Range: 0.1<10>Type: Normal<10><6>Suicide
 stattextdickey64 : 261
 stattextdicvalue64 : <3>Claws<4><10>Range: 3<10>Type: Normal<10>Cooldown: 15
 stattextdickey65 : 263
-stattextdicvalue65 : <3>Assimilated Rifle<4><10>Range: 6<10>Type: Explosive<10>Cooldown: 12
+stattextdicvalue65 : <3>Assimilated Rifle<4><10>Range: 6<10>Type: Explosive<10>Cooldown: 10
 stattextdickey66 : 260
 stattextdicvalue66 : <3>Assimilated Attack Pattern<4><10>Range: 1.5<10>Type: Normal<10>Cooldown: 5
 stattextdickey67 : 265
@@ -858,7 +858,7 @@ stattextdicvalue70 : <25>Barett <6>M82 <30> Anti-Materiel Rifle<10><4>Range: 5<1
 stattextdickey71 : 1250
 stattextdicvalue71 : Shock Grenade:<10>   Requires Research
 stattextdickey72 : 1248
-stattextdicvalue72 : x<3><4>X: <3>Shock Grenade<4><10>Range: 5<10>Type: Mael
+stattextdicvalue72 : q<3><4>Q: <3>Flashbang<4><10>Range: 5<10>Type: Mael
 stattextdickey73 : 584
 stattextdicvalue73 : s<1><3>S: <1>Train Special Forces
 wireuse : True
