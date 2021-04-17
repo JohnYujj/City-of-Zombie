@@ -66,7 +66,6 @@ S_DatEditSET
 0,23,54,2
 0,23,56,-3
 0,23,66,2
-0,23,68,2
 0,23,124,-1
 0,23,144,1
 0,23,146,-3
@@ -310,7 +309,7 @@ S_DatEditSET
 1,5,53,-96
 1,5,55,13
 1,5,66,64
-1,5,70,96
+1,5,70,32
 1,5,80,32
 1,5,81,-32
 1,5,107,-128
@@ -366,7 +365,7 @@ S_DatEditSET
 1,16,49,-19
 1,16,53,-11
 1,16,66,15
-1,16,70,40
+1,16,70,20
 1,16,73,-24
 1,16,107,-21
 1,17,10,-1
@@ -885,7 +884,7 @@ stattextdicvalue78 : Mutated Infected
 stattextdickey79 : 414
 stattextdicvalue79 : Airborne Infected
 stattextdickey80 : 289
-stattextdicvalue80 : <3>Assimilated <06>Extinction Ray<4><10>Range: 5<10>Type: Normal<10>Area: 3/15/30<10>Cooldown: 60
+stattextdicvalue80 : <3>Assimilated <6>Extinction Ray<4><10>Range: 3<10>Type: Normal<10>Area: 3/15/30<10>Cooldown: 40
 wireuse : True
 wireframData106 : 110
 E_FileManagerSET
