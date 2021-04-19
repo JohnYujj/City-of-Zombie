@@ -72,7 +72,7 @@ S_DatEditSET
 0,23,66,2
 0,23,124,-1
 0,23,144,1
-0,23,146,-1
+0,23,146,-2
 0,23,162,1
 0,24,1,-3
 0,24,3,-1
@@ -358,7 +358,7 @@ S_DatEditSET
 1,5,46,-96
 1,5,47,-96
 1,5,52,32
-1,5,53,-32
+1,5,53,-64
 1,5,55,13
 1,5,66,64
 1,5,70,32
@@ -956,9 +956,6 @@ stattextdicvalue91 : Main Battle Tank
 stattextdickey92 : 601
 stattextdicvalue92 : z<1><3>Z: <1>Train Anti-Tank Infantry
 wireuse : True
-wireframData72 : 74
-grpwireData72 : 74
-tranwireData72 : 73
 wireframData106 : 110
 E_FileManagerSET
 S_TriggerEditorSET
