@@ -429,6 +429,7 @@ S_DatEditSET
 1,7,10,2
 1,7,15,2
 1,7,29,2
+1,7,32,1
 1,7,81,-2
 1,7,107,1
 1,8,15,1
@@ -440,9 +441,9 @@ S_DatEditSET
 1,11,32,75
 1,12,32,75
 1,13,32,75
-1,14,32,120
+1,14,32,100
 1,14,107,72
-1,15,32,10
+1,15,32,5
 1,15,107,5
 1,16,0,-6
 1,16,2,-4
@@ -490,6 +491,7 @@ S_DatEditSET
 2,1,191,1493
 2,2,41,-427
 2,2,146,266
+2,2,151,266
 2,2,154,1866
 2,2,191,733
 2,3,41,-13640
@@ -920,7 +922,7 @@ stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (F-22 Ability)
 stattextdickey47 : 292
 stattextdicvalue47 : <3>40<6>mm <30>Bofors Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 6
 stattextdickey48 : 313
-stattextdicvalue48 : q<3><4>Q: <3>Napalm Strike<4><10>Range: 9<10>Type: Concussive<10>Area: 75/75/75<10>Damage: 120(+10x)
+stattextdicvalue48 : q<3><4>Q: <3>Napalm Strike<4><10>Range: 9<10>Type: Normal Biological<10>Area: 75/75/75<10>Damage: 100(+5x)
 stattextdickey49 : 334
 stattextdicvalue49 : x<3><3>X: <1>Napalm Strike<10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey50 : 346
