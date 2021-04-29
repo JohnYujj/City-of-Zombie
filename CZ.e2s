@@ -18,40 +18,62 @@ triggerSetTouse : True
 triggerPlayer : 7
 E_ProjectSET
 S_DatEditSET
-0,0,66,43
+0,0,66,30
 0,0,72,2
+0,0,99,3
 0,0,106,1
 0,0,112,14
-0,1,5,60
+0,1,28,-129
 0,5,66,-20
 0,6,46,1
 0,6,60,-1
 0,6,66,-1
 0,6,70,-1
+0,6,75,-1
+0,6,76,-1
+0,6,77,-1
 0,6,78,-1
+0,6,79,-1
 0,6,80,-1
 0,7,46,-99
-0,8,66,-25600
+0,8,2,76800
+0,8,58,35840
+0,9,28,-12
+0,9,58,-12
 0,10,66,-65
+0,10,99,-65
 0,11,5,3
-0,11,66,-4
+0,11,28,2
+0,11,66,11
 0,11,70,2
-0,12,66,2
-0,13,66,2
-0,14,66,2
-0,15,66,12
-0,16,66,2
+0,11,79,-14
+0,11,84,10
+0,11,99,-18
+0,12,99,2
+0,13,99,2
+0,14,99,2
+0,15,28,11
+0,15,99,12
+0,16,99,2
 0,17,4,123
-0,17,19,-4
-0,17,46,-70
+0,17,6,16
+0,17,28,107
+0,17,46,-96
+0,17,58,-27
+0,17,99,-89
 0,17,124,-101
+0,18,58,1
 0,19,20,129
+0,19,28,106
+0,19,58,27
 0,19,60,-85
 0,19,66,64
 0,19,70,56
 0,19,80,-1
+0,19,99,-88
 0,19,124,-19
 0,20,20,-1
+0,20,58,-4
 0,20,66,-1
 0,21,37,2
 0,21,38,2
@@ -67,27 +89,31 @@ S_DatEditSET
 0,21,66,3
 0,21,67,3
 0,22,1,-2097664
-0,22,7,2097152
 0,22,16,-512
-0,22,66,-704643056
+0,22,28,-2097220
+0,22,58,-33554436
 0,22,68,65536
 0,22,72,64
 0,22,75,-4194304
+0,22,84,-4210688
+0,22,99,400489936
 0,22,106,-32
 0,22,112,2147483648
 0,22,162,-524288
 0,23,1,-3
-0,23,2,1
 0,23,16,-1
+0,23,28,2
 0,23,46,3
 0,23,48,1
 0,23,54,1
+0,23,60,-3
 0,23,66,2
 0,23,75,4
 0,23,78,2
+0,23,79,2
 0,23,80,1
-0,23,124,-1
-0,23,146,-2
+0,23,99,2
+0,23,146,-1
 0,23,162,-1
 0,24,1,-3
 0,24,3,-1
@@ -103,8 +129,6 @@ S_DatEditSET
 0,24,44,-2
 0,24,54,2
 0,24,56,-2
-0,24,66,-1
-0,24,70,-1
 0,24,75,4
 0,24,78,3
 0,24,80,1
@@ -119,16 +143,23 @@ S_DatEditSET
 0,24,125,-3
 0,25,11,-1
 0,25,20,3
+0,25,28,-1
 0,25,39,2
 0,25,44,2
 0,25,48,2
 0,25,56,2
+0,25,58,-1
 0,25,60,-5
 0,25,66,-4
+0,25,68,-2
 0,25,70,-5
 0,25,75,-2
+0,25,76,-2
+0,25,77,-2
 0,25,78,-4
+0,25,79,-5
 0,25,80,-5
+0,25,84,-5
 0,25,106,-58
 0,25,111,-58
 0,25,112,-58
@@ -144,76 +175,103 @@ S_DatEditSET
 0,26,46,-1
 0,26,53,-1
 0,26,60,1
-0,26,66,-3
-0,27,66,-1
+0,26,68,-2
+0,26,76,-2
+0,26,99,-1
+0,26,144,-2
+0,26,146,-2
+0,27,2,6
+0,27,58,4
 0,28,46,-1
+0,29,66,-316
+0,30,28,51
+0,30,66,-313
+0,31,28,53
+0,31,66,-317
+0,32,28,50
+0,32,66,-314
+0,33,28,51
+0,33,66,-313
+0,34,28,51
+0,34,66,-317
+0,35,28,51
+0,35,66,-320
 0,36,0,2
 0,36,1,4
-0,36,5,9
 0,36,7,-12
 0,36,16,4
 0,36,34,2
 0,36,37,-5
-0,36,38,-6
-0,36,39,-10
-0,36,40,-6
+0,36,38,-8
+0,36,39,-15
+0,36,40,-8
 0,36,43,-29
 0,36,44,-25
-0,36,48,-10
-0,36,53,-6
-0,36,54,-5
+0,36,48,-15
+0,36,53,-8
+0,36,54,-7
 0,36,55,-29
-0,36,66,-29
-0,36,68,-29
+0,36,58,-18
+0,36,66,25
+0,36,68,-23
 0,36,71,-41
 0,36,72,-55
+0,36,76,-13
+0,36,77,-21
 0,36,84,-29
+0,36,99,-12
 0,36,106,-64
 0,36,112,-32
 0,36,125,-32
 0,37,0,-1
 0,37,1,-3
-0,37,5,9
 0,37,7,-12
 0,37,16,-3
 0,37,34,-1
 0,37,37,-5
-0,37,38,-8
-0,37,39,-4
-0,37,40,-6
+0,37,38,-10
+0,37,39,-9
+0,37,40,-8
 0,37,43,-29
 0,37,44,-25
-0,37,48,-4
-0,37,53,-8
-0,37,54,-5
+0,37,48,-9
+0,37,53,-10
+0,37,54,-7
 0,37,55,-29
-0,37,66,-29
-0,37,68,-29
+0,37,58,-18
+0,37,66,25
+0,37,68,-23
 0,37,71,-41
 0,37,72,-55
+0,37,76,-13
+0,37,77,-27
 0,37,84,-29
+0,37,99,-19
 0,37,106,-32
 0,40,0,1
 0,40,1,2
-0,40,5,4
 0,40,7,-6
 0,40,16,2
 0,40,34,1
 0,40,37,-3
-0,40,38,-3
-0,40,39,-5
-0,40,40,-3
+0,40,38,-4
+0,40,39,-8
+0,40,40,-4
 0,40,43,-15
 0,40,44,-13
-0,40,48,-5
-0,40,53,-3
-0,40,54,-3
+0,40,48,-8
+0,40,53,-4
+0,40,54,-4
 0,40,55,-15
-0,40,66,-14
-0,40,68,-15
+0,40,58,-8
+0,40,66,13
+0,40,68,-12
 0,40,71,-21
 0,40,72,-28
+0,40,76,-7
+0,40,77,-10
 0,40,84,-15
+0,40,99,-6
 0,40,106,-36
 0,40,111,2
 0,40,112,-9
@@ -223,24 +281,26 @@ S_DatEditSET
 0,40,124,-2
 0,40,125,-4
 0,41,1,-1
-0,41,5,4
 0,41,7,-6
 0,41,16,-1
 0,41,37,1
-0,41,38,-3
-0,41,39,-2
-0,41,40,-3
+0,41,38,-4
+0,41,39,-5
+0,41,40,-4
 0,41,43,-15
 0,41,44,-13
-0,41,48,-2
-0,41,53,-3
-0,41,54,1
+0,41,48,-5
+0,41,53,-4
 0,41,55,-15
-0,41,66,-14
-0,41,68,-15
+0,41,58,-1
+0,41,66,15
+0,41,68,-12
 0,41,71,-21
 0,41,72,-28
+0,41,76,-7
+0,41,77,-4
 0,41,84,-15
+0,41,99,-9
 0,41,106,-19
 0,41,111,-4
 0,41,112,-1
@@ -251,25 +311,28 @@ S_DatEditSET
 0,41,125,4
 0,42,0,1
 0,42,1,2
-0,42,5,5
 0,42,7,-6
 0,42,16,2
 0,42,34,1
 0,42,37,-2
-0,42,38,-3
-0,42,39,-5
-0,42,40,-3
+0,42,38,-4
+0,42,39,-7
+0,42,40,-4
 0,42,43,-14
 0,42,44,-12
-0,42,48,-5
-0,42,53,-3
-0,42,54,-2
+0,42,48,-7
+0,42,53,-4
+0,42,54,-3
 0,42,55,-14
-0,42,66,-15
-0,42,68,-14
+0,42,58,-9
+0,42,66,12
+0,42,68,-11
 0,42,71,-20
 0,42,72,-27
+0,42,76,-6
+0,42,77,-10
 0,42,84,-14
+0,42,99,-6
 0,42,106,-36
 0,42,111,-6
 0,42,112,-13
@@ -280,25 +343,28 @@ S_DatEditSET
 0,42,125,-4
 0,43,0,-1
 0,43,1,-2
-0,43,5,5
 0,43,7,-6
 0,43,16,-2
 0,43,34,-1
 0,43,37,-6
-0,43,38,-5
-0,43,39,-2
-0,43,40,-3
+0,43,38,-6
+0,43,39,-4
+0,43,40,-4
 0,43,43,-14
 0,43,44,-12
-0,43,48,-2
-0,43,53,-5
-0,43,54,-6
+0,43,48,-4
+0,43,53,-6
+0,43,54,-7
 0,43,55,-14
-0,43,66,-15
-0,43,68,-14
+0,43,58,-4
+0,43,66,10
+0,43,68,-11
 0,43,71,-20
 0,43,72,-27
+0,43,76,-6
+0,43,77,-12
 0,43,84,-14
+0,43,99,-10
 0,43,106,-19
 0,43,111,4
 0,43,112,7
@@ -307,38 +373,52 @@ S_DatEditSET
 0,43,116,-2
 0,43,124,-2
 0,43,125,12
-0,44,66,-35
-0,45,66,-124
-0,46,66,-49
-0,47,66,-749
+0,44,28,-1
+0,44,66,-30
+0,45,2,-40
+0,47,2,-160
+0,49,19,-1
+0,49,20,-1
+0,49,28,2
 0,49,60,-2
 0,49,66,-2
 0,49,70,-2
+0,49,75,-3
+0,49,76,-3
+0,49,77,-3
+0,49,79,-2
+0,49,84,-2
 0,50,106,-20
 0,50,109,-4
-0,50,110,24
-0,51,5,8
+0,50,110,32
+0,51,3,2
+0,51,5,12
 0,51,7,-1
 0,51,11,-2
-0,51,16,2
-0,51,60,4
-0,51,66,-4
-0,51,70,2
-0,51,124,2
+0,51,16,4
+0,51,60,8
+0,51,66,12
+0,51,70,6
+0,51,79,4
+0,51,84,-1
+0,51,124,4
 0,52,2,253
 0,52,3,253
 0,52,5,251
 0,52,66,251
+0,52,99,254
+0,53,2,8
 0,54,0,30
 0,54,1,-143
-0,54,2,133
+0,54,2,125
 0,54,3,-20
-0,54,5,290
-0,54,7,-26
-0,54,11,-172
-0,54,16,160
-0,54,19,200
-0,54,20,100
+0,54,5,250
+0,54,7,-30
+0,54,11,-180
+0,54,16,120
+0,54,19,400
+0,54,20,200
+0,54,28,3000
 0,54,34,-85
 0,54,37,5
 0,54,38,-110
@@ -346,32 +426,39 @@ S_DatEditSET
 0,54,40,10
 0,54,43,-260
 0,54,44,-500
-0,54,46,175
+0,54,46,1275
 0,54,48,240
 0,54,53,100
 0,54,54,80
 0,54,55,100
 0,54,56,120
-0,54,60,34
-0,54,66,-250
-0,54,68,300
-0,54,70,-266
-0,54,75,300
+0,54,58,-200
+0,54,60,450
+0,54,66,750
+0,54,68,800
+0,54,70,-250
+0,54,75,1000
+0,54,76,2500
+0,54,77,2000
 0,54,78,400
+0,54,79,160
 0,54,80,300
+0,54,84,-185
+0,54,94,2000
+0,54,96,2000
 0,54,144,25
 0,54,146,-20
 0,54,162,200
 0,55,0,-20
 0,55,1,-318
-0,55,2,58
+0,55,2,50
 0,55,3,-220
-0,55,5,-60
-0,55,7,-76
-0,55,11,-472
-0,55,16,-540
-0,55,19,-100
-0,55,20,-100
+0,55,5,-100
+0,55,7,-80
+0,55,11,-480
+0,55,16,-580
+0,55,19,100
+0,55,28,-1800
 0,55,34,-210
 0,55,37,-20
 0,55,38,-335
@@ -379,33 +466,44 @@ S_DatEditSET
 0,55,40,-15
 0,55,43,-560
 0,55,44,-1050
-0,55,46,-50
+0,55,46,350
 0,55,48,-2360
 0,55,53,-400
 0,55,54,-20
 0,55,55,-1100
 0,55,56,-2080
-0,55,60,-316
-0,55,66,-500
-0,55,68,-400
-0,55,70,-916
-0,55,75,-500
+0,55,58,-600
+0,55,60,100
+0,55,66,500
+0,55,68,100
+0,55,70,-900
+0,55,75,200
+0,55,76,-300
+0,55,77,1600
 0,55,78,-600
+0,55,79,-1240
 0,55,80,-2300
+0,55,84,-410
+0,55,94,1990
+0,55,96,1990
 0,55,144,-145
 0,55,146,-220
-0,58,66,-463
+0,58,99,-967
 1,1,0,10
 1,1,1,1
 1,1,3,-1
-1,1,4,3
+1,1,4,7
 1,1,8,56
 1,1,10,56
 1,1,15,10
+1,1,23,10
+1,1,24,10
 1,1,29,2
 1,1,32,5
 1,1,66,-1
+1,1,69,11
 1,1,73,-3
+1,1,103,-54
 1,1,107,-55
 1,2,32,43
 1,2,107,14
@@ -414,25 +512,29 @@ S_DatEditSET
 1,3,32,67
 1,3,66,-1
 1,3,75,1
+1,3,103,1
 1,3,107,1
+1,4,27,-64
 1,5,2,-96
 1,5,3,-32
-1,5,4,32
 1,5,8,32
-1,5,10,32
-1,5,15,128
-1,5,29,-32
+1,5,10,64
+1,5,15,32
+1,5,23,64
+1,5,24,64
+1,5,27,-128
 1,5,32,32
 1,5,35,1
 1,5,36,33
 1,5,40,7
 1,5,41,23
 1,5,42,14
-1,5,53,-64
+1,5,53,-32
 1,5,55,13
-1,5,60,-192
+1,5,65,17
 1,5,66,64
 1,5,67,64
+1,5,69,64
 1,5,70,32
 1,5,75,32
 1,5,80,-32
@@ -444,66 +546,92 @@ S_DatEditSET
 1,6,29,-58
 1,6,32,-51
 1,6,66,-5
+1,6,69,-6
 1,6,73,-5
 1,6,107,-53
 1,7,0,-1
 1,7,1,-2
 1,7,3,1
-1,7,4,1
 1,7,8,2
 1,7,10,2
 1,7,15,2
+1,7,23,-2
+1,7,24,-2
+1,7,27,2
 1,7,29,2
 1,7,32,1
 1,7,38,2
 1,7,39,2
 1,7,46,-2
 1,7,47,-2
-1,7,48,-2
-1,7,49,-2
+1,7,48,1
+1,7,49,1
+1,7,69,-2
+1,7,71,1
 1,7,81,-2
-1,7,107,1
+1,7,103,2
+1,7,107,3
+1,8,4,2
 1,8,15,1
 1,8,32,-1
 1,8,66,-1
+1,8,69,-2
 1,8,73,-2
+1,8,103,-8
+1,10,27,1
 1,10,32,-2
+1,10,103,-23
 1,10,107,-20
 1,11,1,10
 1,11,32,75
+1,11,103,-5
 1,12,1,10
 1,12,32,75
+1,12,103,-50
 1,13,1,10
+1,13,27,10
 1,13,32,75
-1,14,32,60
-1,14,60,500
+1,13,103,-100
+1,14,4,-6
+1,14,32,80
+1,14,34,50
+1,14,103,9
 1,14,107,72
-1,15,32,3
+1,15,4,-1
+1,15,32,6
+1,15,103,1
 1,15,107,5
-1,16,0,-6
+1,16,0,-7
 1,16,1,-5
-1,16,2,-4
-1,16,3,-4
-1,16,4,-14
-1,16,8,-12
-1,16,10,-17
+1,16,2,-6
+1,16,3,-6
+1,16,4,-22
+1,16,8,-2
+1,16,10,-12
 1,16,15,-2
+1,16,23,137
+1,16,24,137
+1,16,27,-25
 1,16,29,15
 1,16,32,59
+1,16,34,-60
 1,16,35,4
 1,16,36,3
 1,16,39,-5
 1,16,46,-16
 1,16,47,-20
-1,16,48,-16
-1,16,49,-18
-1,16,53,-11
-1,16,60,149
-1,16,66,15
+1,16,48,-15
+1,16,49,-15
+1,16,53,-7
+1,16,65,-12
+1,16,66,10
 1,16,67,-2
+1,16,69,38
+1,16,71,-14
 1,16,73,-22
 1,16,75,-10
-1,16,85,78
+1,16,85,28
+1,16,103,-54
 1,16,107,78
 1,17,10,-1
 1,18,66,-112
@@ -513,36 +641,57 @@ S_DatEditSET
 1,21,8,10
 1,22,32,1
 1,23,3,2
-1,23,4,9
+1,23,4,1
 1,23,8,4
 1,23,10,4
 1,23,15,28
 1,23,29,-3
 1,23,32,1
-1,23,66,-18
+1,23,69,4
 1,23,73,-25
+1,23,103,3
 1,23,107,27
 2,1,41,-3413
-2,1,88,-407
+2,1,70,360
+2,1,88,-307
+2,1,190,-290
 2,1,191,1493
 2,2,41,-427
+2,2,70,73
 2,2,146,266
 2,2,151,266
 2,2,154,1866
+2,2,190,35
 2,2,191,733
 2,3,41,-13640
+2,3,70,-5585
 2,3,88,-12569
+2,3,190,-19901
 2,3,191,-16067
+2,4,190,10
 2,4,191,30
+2,4,199,126
+2,4,200,113
+2,6,200,-2
+4,5,219,-2
+4,5,940,-2
 5,7,33,47
+5,8,16,45
+5,8,17,45
+5,8,33,45
+5,8,42,45
+5,8,54,11
 6,5,1,1
 6,5,30,-14
+6,6,30,5
 E_DatEditSET
 S_FireGraftSET
 E_FireGraftSET
 S_BtnSET
 BtnUse1 : True
 BtnData1 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,
+BtnUse2 : True
+BtnData2 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,230,4362032,4342656,0,0,666,0,4,254,4358864,4342080,0,0,667,0,5,255,4358864,4338544,0,0,668,0,9,312,4361888,4340480,0,0,684,0,8,309,4362224,4340544,0,0,683,0,7,243,4363376,4341616,3,3,336,348,
 BtnUse7 : True
 BtnData7 : 1,228,4359792,4342848,0,0,664,0,2,229,4359744,4338672,0,0,665,0,3,230,4359696,4342656,0,0,666,0,4,232,4359648,4340688,0,0,677,0,5,231,4359584,4340592,0,0,675,0,6,233,4359296,4339552,0,0,676,0,7,234,4360720,4561648,0,239,678,0,8,247,4363488,4341616,6,6,340,350,9,236,4358928,4338672,0,0,700,0,
 BtnUse16 : True
@@ -552,17 +701,17 @@ BtnData60 : 1,228,4358864,4342848,0,0,664,0,2,229,4358864,4338672,0,0,665,0,3,23
 BtnUse106 : True
 BtnData106 : 6,286,4363552,4342944,0,0,672,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse111 : True
-BtnData111 : 1,228,4359200,4342848,0,0,664,0,2,229,4359200,4338672,0,0,665,0,6,286,4363552,4342944,0,0,672,0,9,236,4359472,4338832,0,254,693,0,9,283,4359152,4340784,0,111,670,0,9,282,4360144,4338224,0,0,671,0,1,7,4361824,4338864,7,7,592,0,2,1,4361824,4338864,1,1,587,0,3,34,4361824,4338864,34,34,1290,0,4,0,4361824,4338864,0,0,586,0,5,16,4361824,4338864,16,16,585,0,9,236,4360480,4338384,0,0,694,0,
+BtnData111 : 1,228,4359200,4342848,0,0,664,0,2,229,4359200,4338672,0,0,665,0,6,286,4363552,4342944,0,0,672,0,9,236,4359472,4338832,0,254,693,0,9,283,4359152,4340784,0,111,670,0,9,282,4360144,4338224,0,0,671,0,1,7,4361824,4338864,7,7,592,0,2,1,4361824,4338864,1,1,587,0,3,34,4361824,4338864,34,34,1290,0,4,0,4361824,4338864,0,0,586,0,5,16,4361824,4338864,16,16,585,0,7,79,4361824,4338864,79,79,641,0,8,84,4361824,4338864,84,84,594,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse113 : True
-BtnData113 : 1,228,4359200,4342848,0,0,664,0,9,282,4360144,4338224,0,0,671,0,9,283,4359152,4340784,0,113,670,0,2,229,4359200,4338672,0,0,665,0,1,2,4361824,4338864,2,2,589,707,2,5,4361824,4338864,5,5,591,704,3,3,4361824,4338864,3,3,590,703,6,286,4363552,4342944,0,0,672,0,7,120,4361824,4341008,120,120,663,0,9,236,4359472,4338832,0,254,693,0,9,236,4360448,4338416,0,0,691,0,9,236,4360480,4338384,0,0,694,0,
+BtnData113 : 2,229,4359200,4338672,0,0,665,0,1,228,4359200,4342848,0,0,664,0,9,282,4360144,4338224,0,0,671,0,9,283,4359152,4340784,0,113,670,0,1,2,4361824,4338864,2,2,589,707,2,58,4361824,4338864,58,58,1291,707,3,3,4361824,4338864,3,3,590,707,4,12,4361824,4338864,66,66,596,704,5,30,4361824,4338864,5,5,591,704,6,286,4363552,4342944,0,0,672,0,7,120,4361824,4341008,120,120,663,0,9,236,4359472,4338832,0,254,693,0,9,236,4360448,4338416,0,0,691,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse114 : True
 BtnData114 : 1,228,4359200,4342848,0,0,664,0,9,282,4360144,4338224,0,0,671,0,9,283,4359152,4340784,0,114,670,0,2,229,4359200,4338672,0,0,665,0,1,60,4361824,4338864,60,60,593,1295,2,11,4361824,4338864,11,11,595,706,3,70,4361824,4338864,70,70,605,721,6,286,4363552,4342944,0,0,672,0,7,115,4361824,4341008,115,115,660,0,9,236,4359472,4338832,0,254,693,0,9,236,4360480,4338384,0,0,694,0,
 BtnUse116 : True
 BtnData116 : 1,228,4359200,4342848,0,0,664,0,2,229,4359200,4338672,0,0,665,0,1,292,4363344,4338448,0,0,456,0,2,324,4363344,4338448,7,7,463,502,3,291,4363344,4338448,2,2,458,517,4,293,4363344,4338448,1,1,457,511,5,328,4363344,4338448,8,8,464,508,7,239,4363344,4338448,9,9,465,514,9,283,4359152,4340784,0,116,670,0,9,282,4360144,4338224,0,0,671,0,9,236,4360416,4338480,0,0,692,0,9,236,4360480,4338384,0,0,694,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse117 : True
-BtnData117 : 1,247,4363520,4338512,6,6,324,0,2,238,4363344,4338448,16,16,472,0,3,287,4363344,4338448,17,17,473,0,4,320,4363344,4338448,42,42,498,0,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
+BtnData117 : 1,359,4363520,4338512,30,30,329,0,2,238,4363344,4338448,16,16,472,0,3,287,4363344,4338448,17,17,473,0,4,320,4363344,4338448,42,42,498,0,5,247,4363520,4338512,6,6,324,0,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse118 : True
-BtnData118 : 1,359,4363520,4338512,30,30,329,0,2,328,4363344,4338448,33,33,489,0,3,380,4363344,4338448,54,54,1287,0,4,241,4363520,4338512,1,1,325,0,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
+BtnData118 : 2,328,4363344,4338448,33,33,489,0,3,380,4363344,4338448,54,54,1287,0,1,241,4363520,4338512,1,1,325,0,9,236,4360416,4338480,0,0,692,0,9,236,4360448,4338416,0,0,691,0,
 BtnUse239 : True
 BtnData239 : 1,109,4361824,4341424,106,106,646,0,3,110,4361824,4341424,110,110,648,0,2,111,4361824,4341424,111,111,649,710,5,114,4361824,4341424,114,114,655,713,7,124,4361824,4341424,124,124,651,717,4,113,4361824,4341424,113,113,654,712,6,116,4361824,4341424,116,116,656,714,8,125,4361824,4341424,125,125,653,718,9,236,4358864,4561648,0,228,688,0,
 BtnUse242 : True
@@ -601,30 +750,51 @@ ReqData0,3,2 : 65285
 ReqData0,3,3 : 65288
 ReqData0,3,4 : 65284
 ReqData0,3,5 : 120
+ReqUse0,5 : 3
+ReqPos0,5 : 30
+ReqCount0,5 : 8
+ReqData0,5,0 : 65282
+ReqData0,5,1 : 113
+ReqData0,5,2 : 65285
+ReqData0,5,3 : 65288
+ReqData0,5,4 : 65283
+ReqData0,5,5 : 118
+ReqData0,5,6 : 65284
+ReqData0,5,7 : 120
 ReqUse0,7 : 3
-ReqPos0,7 : 38
+ReqPos0,7 : 40
 ReqCount0,7 : 4
 ReqData0,7,0 : 65282
 ReqData0,7,1 : 111
 ReqData0,7,2 : 65288
 ReqData0,7,3 : 65285
 ReqUse0,16 : 3
-ReqPos0,16 : 82
+ReqPos0,16 : 84
 ReqCount0,16 : 4
 ReqData0,16,0 : 65282
 ReqData0,16,1 : 111
 ReqData0,16,2 : 65285
 ReqData0,16,3 : 65288
 ReqUse0,34 : 3
-ReqPos0,34 : 95
+ReqPos0,34 : 97
 ReqCount0,34 : 5
 ReqData0,34,0 : 65316
 ReqData0,34,1 : 65282
 ReqData0,34,2 : 111
 ReqData0,34,3 : 65288
 ReqData0,34,4 : 65285
+ReqUse0,58 : 3
+ReqPos0,58 : 163
+ReqCount0,58 : 7
+ReqData0,58,0 : 65316
+ReqData0,58,1 : 65282
+ReqData0,58,2 : 113
+ReqData0,58,3 : 65288
+ReqData0,58,4 : 65285
+ReqData0,58,5 : 65284
+ReqData0,58,6 : 120
 ReqUse0,60 : 3
-ReqPos0,60 : 171
+ReqPos0,60 : 172
 ReqCount0,60 : 7
 ReqData0,60,0 : 65316
 ReqData0,60,1 : 65282
@@ -633,8 +803,18 @@ ReqData0,60,3 : 65284
 ReqData0,60,4 : 115
 ReqData0,60,5 : 65288
 ReqData0,60,6 : 65285
+ReqUse0,66 : 3
+ReqPos0,66 : 202
+ReqCount0,66 : 7
+ReqData0,66,0 : 65282
+ReqData0,66,1 : 113
+ReqData0,66,2 : 65285
+ReqData0,66,3 : 65288
+ReqData0,66,4 : 65284
+ReqData0,66,5 : 120
+ReqData0,66,6 : 118
 ReqUse0,70 : 3
-ReqPos0,70 : 215
+ReqPos0,70 : 220
 ReqCount0,70 : 6
 ReqData0,70,0 : 65282
 ReqData0,70,1 : 114
@@ -642,32 +822,45 @@ ReqData0,70,2 : 65284
 ReqData0,70,3 : 115
 ReqData0,70,4 : 65288
 ReqData0,70,5 : 65285
+ReqUse0,79 : 3
+ReqPos0,79 : 246
+ReqCount0,79 : 3
+ReqData0,79,0 : 65282
+ReqData0,79,1 : 111
+ReqData0,79,2 : 65285
+ReqUse0,84 : 3
+ReqPos0,84 : 256
+ReqCount0,84 : 4
+ReqData0,84,0 : 65282
+ReqData0,84,1 : 111
+ReqData0,84,2 : 65288
+ReqData0,84,3 : 65285
 ReqUse0,111 : 3
-ReqPos0,111 : 295
+ReqPos0,111 : 306
 ReqCount0,111 : 3
 ReqData0,111,0 : 65282
 ReqData0,111,1 : 7
 ReqData0,111,2 : 65291
 ReqUse0,112 : 3
-ReqPos0,112 : 300
+ReqPos0,112 : 311
 ReqCount0,112 : 3
 ReqData0,112,0 : 65282
 ReqData0,112,1 : 7
 ReqData0,112,2 : 65291
 ReqUse0,113 : 3
-ReqPos0,113 : 305
+ReqPos0,113 : 316
 ReqCount0,113 : 3
 ReqData0,113,0 : 65282
 ReqData0,113,1 : 7
 ReqData0,113,2 : 65291
 ReqUse0,114 : 3
-ReqPos0,114 : 310
+ReqPos0,114 : 321
 ReqCount0,114 : 3
 ReqData0,114,0 : 65282
 ReqData0,114,1 : 7
 ReqData0,114,2 : 65291
 ReqUse0,116 : 3
-ReqPos0,116 : 321
+ReqPos0,116 : 332
 ReqCount0,116 : 3
 ReqData0,116,0 : 65282
 ReqData0,116,1 : 7
@@ -676,17 +869,20 @@ ReqUse0,122 : 1
 ReqPos0,122 : 0
 ReqCount0,122 : 0
 ReqUse0,124 : 3
-ReqPos0,124 : 350
+ReqPos0,124 : 361
 ReqCount0,124 : 3
 ReqData0,124,0 : 65282
 ReqData0,124,1 : 7
 ReqData0,124,2 : 65291
 ReqUse0,125 : 3
-ReqPos0,125 : 355
+ReqPos0,125 : 366
 ReqCount0,125 : 3
 ReqData0,125,0 : 65282
 ReqData0,125,1 : 7
 ReqData0,125,2 : 65291
+ReqUse0,165 : 1
+ReqPos0,165 : 0
+ReqCount0,165 : 0
 ReqUse0,170 : 1
 ReqPos0,170 : 0
 ReqCount0,170 : 0
@@ -822,7 +1018,7 @@ ReqPos2,30 : 141
 ReqCount2,30 : 5
 ReqData2,30,0 : 65316
 ReqData2,30,1 : 65282
-ReqData2,30,2 : 118
+ReqData2,30,2 : 117
 ReqData2,30,3 : 65287
 ReqData2,30,4 : 65285
 ReqUse2,32 : 1
@@ -870,7 +1066,7 @@ ProjectMTXMDATACount : 24576
 ProjectMTXMDATAArray : 
 E_TileSET
 S_FileManagerSET
-stattextdicCount : 99
+stattextdicCount : 116
 stattextdickey0 : 711
 stattextdicvalue0 : Factory Requires:<10>   Command Center
 stattextdickey1 : 720
@@ -878,25 +1074,25 @@ stattextdicvalue1 : Arbiter Requires:<10>   Attached Control Tower
 stattextdickey2 : 1294
 stattextdicvalue2 : Wraith Requires:<10>   Attached Control Tower
 stattextdickey3 : 706
-stattextdicvalue3 : Vulture Requires:<10>   Attached Machine Shop
+stattextdicvalue3 : Requires:<10>   Attached Machine Shop
 stattextdickey4 : 702
 stattextdicvalue4 : Goliath Requires:<10>   Attached Machine Shop
 stattextdickey5 : 240
 stattextdicvalue5 : <3>Machine Tools<10><4>Range: 0.3<10>Type: Normal<10>Cooldown: 15
 stattextdickey6 : 230
-stattextdicvalue6 : <22>Colt <3>AR<4>-<6>15 <30>Sporting Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 18
+stattextdicvalue6 : <22>Colt <3>AR<4>-<6>15 <30>Sporting Rifle<10><4>Range: 4<10>Type: Concussive<10>Cooldown: 16
 stattextdickey7 : 232
-stattextdicvalue7 : <4>30<6>mm <30>Bushmaster II<10><4>Range: 6<10>Type: Normal<10>Cooldown: 16
+stattextdicvalue7 : <4>12.7<6>mm <3>M<4>2 <30>Machine Gun<10><4>Range: 5<10>Type: Concussive<10>Cooldown: 8
 stattextdickey8 : 238
 stattextdicvalue8 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 7<10>Type: Explosive<10>Area: 1/20/40<10>Cooldown: 45
 stattextdickey9 : 235
-stattextdicvalue9 : <6>F1M<4>-<3>92 <30>Stinger Missiles<4><10>Range: 6 (+3)<10>Type: Normal<10>Cooldown: 10
+stattextdicvalue9 : <6>F1M<4>-<3>92 <30>Stinger Missiles<4><10>Range: 6 (+3)<10>Type: Normal<10>Cooldown: 20
 stattextdickey10 : 242
-stattextdicvalue10 : <6>LAU<4>-<3>142/A <30>Missiles<4><10>Range: 9<10>Type: Normal<10>Cooldown: 20
+stattextdicvalue10 : <6>LAU<4>-<3>142/A <30>Missiles<4><10>Range: 6<10>Type: Normal<10>Cooldown: 20
 stattextdickey11 : 296
 stattextdicvalue11 : <3>30mm Gunship MG<10><4>Range: 4<10>Type: Explosive<10>Area: 5/5/5<10>Cooldown: 12
 stattextdickey12 : 228
-stattextdicvalue12 : <22>Colt <3>M4A1 <30>Carbine<4><10>Range: 4 (+1)<10>Type: Concussive<10>Cooldown: 9
+stattextdicvalue12 : <22>Colt <3>M4A1 <30>Carbine<4><10>Range: 4 (+1)<10>Type: Concussive<10>Cooldown: 8
 stattextdickey13 : 648
 stattextdicvalue13 : w<1><3>W: <1>Build Recruitment Center
 stattextdickey14 : 647
@@ -914,21 +1110,21 @@ stattextdicvalue19 : d<1><3>D: <1>Build Research Facility
 stattextdickey20 : 652
 stattextdicvalue20 : x<1><3>X: <1>Build Concrete Rampart
 stattextdickey21 : 256
-stattextdicvalue21 : <3>FlaK <4>88<6>mm<10><4>Range: 6<10>Type: Normal<10>Cooldown: 30
+stattextdicvalue21 : <3>FlaK <4>88<6>mm<10><4>Range: 7<10>Type: Normal<10>Cooldown: 30
 stattextdickey22 : 237
-stattextdicvalue22 : <6>F1M<4>-<3>92 <30>Stinger Missiles<4><10>Range: 6 (+3)<10>Type: Normal<10>Cooldown: 5
+stattextdicvalue22 : <6>F1M<4>-<3>92 <30>Stinger Missiles<4><10>Range: 7<10>Type: Normal<10>Cooldown: 10
 stattextdickey23 : 591
 stattextdicvalue23 : q<1><3>Q: <1>Train Support Engineers
 stattextdickey24 : 586
 stattextdicvalue24 : w<1><3>W: <1>Train Armed Civilians
 stattextdickey25 : 585
-stattextdicvalue25 : a<1><3>A: <1>Train Infantry
+stattextdicvalue25 : a<1><3>A: <1>Train Infantry Section
 stattextdickey26 : 1289
 stattextdicvalue26 : e<1><3>E: <1>Train Combat Medics
 stattextdickey27 : 588
-stattextdicvalue27 : q<1><3>Q: <1>Construct IAV Stryker
+stattextdicvalue27 : q<1><3>Q: <1>Construct Stryker ICV
 stattextdickey28 : 590
-stattextdicvalue28 : w<1><3>W: <1>Construct M1 Abrams
+stattextdicvalue28 : s<1><3>S: <1>Construct Paladin SPG
 stattextdickey29 : 589
 stattextdicvalue29 : e<1><3>E: <1>Construct Avenger Air-Defense System
 stattextdickey30 : 592
@@ -960,15 +1156,15 @@ stattextdicvalue42 : e<2><3>E: <1>Research Advanced Turbine Engine (Stryker Spee
 stattextdickey43 : 497
 stattextdicvalue43 : a<2><3>A: <1>Research Gunship Thrusters (AC-130 Speed)
 stattextdickey44 : 323
-stattextdicvalue44 : q<4><3>Q: <1>Research Defensive Matrix (Engineer Spell)
+stattextdicvalue44 : s<4><3>S: <1>Research Defensive Matrix (Engineer Spell)
 stattextdickey45 : 1286
-stattextdicvalue45 : e<2><3>E: <1>Research Charged Shells (Avenger Range)
+stattextdicvalue45 : e<2><3>E: <1>Research Rocket Boosters (Avenger Range)
 stattextdickey46 : 324
-stattextdicvalue46 : a<4><3>A: <1>Research Napalm Strike (F-22 Ability)
+stattextdicvalue46 : q<4><3>Q: <1>Research Napalm Strike (F-22 Ability)
 stattextdickey47 : 292
 stattextdicvalue47 : <3>40<6>mm <30>Bofors Cannon<4><10>Range: 4<10>Type: Normal<10>Cooldown: 8
 stattextdickey48 : 313
-stattextdicvalue48 : q<3><4>Q: <3>Napalm Strike<4><10>Range: 9<10>Type: Normal Biological<10>Area: 75/75/75<10>Cooldown: 60<10>Damage: 60(+3x)
+stattextdicvalue48 : q<3><4>Q: <3>Napalm Strike<4><10>Range: 9<10>Type: Normal Biological<10>Area: 75/75/75<10>Cooldown: 60<10>Damage: 80(+6x)
 stattextdickey49 : 334
 stattextdicvalue49 : x<3><3>X: <1>Napalm Strike<10>Type: Explosive<10>Area: 20/50/80<10>Damage: 80
 stattextdickey50 : 346
@@ -978,7 +1174,7 @@ stattextdicvalue51 : Defensive Matrix:<10>   Requires Research
 stattextdickey52 : 339
 stattextdicvalue52 : q<3><3>Q: <1>Defensive Matrix
 stattextdickey53 : 285
-stattextdicvalue53 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 6 (+2)<10>Type: Explosive<10>Cooldown: 45
+stattextdicvalue53 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 6 (+2)<10>Type: Explosive<10>Cooldown: 40
 stattextdickey54 : 410
 stattextdicvalue54 : Infantry Armor<10><4>Small<10>Biological
 stattextdickey55 : 411
@@ -994,7 +1190,7 @@ stattextdicvalue59 : <3>Bite<4><10>Range: 1<10>Type: Normal<10>Cooldown: 15
 stattextdickey60 : 266
 stattextdicvalue60 : <3>Claws<4><10>Range: 0.5<10>Type: Normal<10>Cooldown: 15
 stattextdickey61 : 272
-stattextdicvalue61 : <3>Talons<4><10>Range: 3<10>Type: Explosive<10>Cooldown: 14
+stattextdicvalue61 : <3>Talons<4><10>Range: 3<10>Type: Ignore Armor<10>Cooldown: 15
 stattextdickey62 : 270
 stattextdicvalue62 : <3>Acid<4><10>Range: 8<10>Type: Explosive<10>Cooldown: 14
 stattextdickey63 : 279
@@ -1008,15 +1204,15 @@ stattextdicvalue66 : <3>Assimilated Attack Pattern<4><10>Range: 1.5<10>Type: Nor
 stattextdickey67 : 265
 stattextdicvalue67 : <3>Assimilated Tusks<4><10>Range: 1.5<10>Type: Normal<10>Cooldown: 15
 stattextdickey68 : 273
-stattextdicvalue68 : <3>Assimilated Talons<4><10>Range: 3<10>Type: Explosive<10>Cooldown: 12
+stattextdicvalue68 : <3>Assimilated Talons<4><10>Range: 3<10>Type: Ignore Armor<10>Cooldown: 15
 stattextdickey69 : 271
 stattextdicvalue69 : <3>Assimilated Acid<4><10>Range: 8<10>Type: Explosive<10>Cooldown: 10
 stattextdickey70 : 231
-stattextdicvalue70 : <25>Barett <6>M82 <30> Anti-Materiel Rifle<10><4>Range: 5<10>Type: Normal<10>Cooldown: 20
+stattextdicvalue70 : <25>Barett <6>M82 <30> Anti-Materiel Rifle<10><4>Range: 5<10>Type: Normal<10>Cooldown: 16
 stattextdickey71 : 1250
 stattextdicvalue71 : Shock Grenade:<10>   Requires Research
 stattextdickey72 : 1248
-stattextdicvalue72 : q<3><4>Q: <22>TI <3>FGM<4>-<6>148 <30>Javelin<10><4>Range: 7<10>Type: Explosive<10>Cooldown: 100<10>Damage: 80 (+6x)
+stattextdicvalue72 : q<3><4>Q: <22>TI <3>FGM<4>-<6>148 <30>Javelin<10><4>Range: 7<10>Type: Normal<10>Cooldown: 100<10>Damage: 80 (+6x)
 stattextdickey73 : 584
 stattextdicvalue73 : s<1><3>S: <1>Train Special Forces
 stattextdickey74 : 419
@@ -1038,7 +1234,7 @@ stattextdicvalue81 : Infantry
 stattextdickey82 : 1306
 stattextdicvalue82 : Militia
 stattextdickey83 : 1307
-stattextdicvalue83 : Infantry Fighting Vehicle
+stattextdicvalue83 : Infantry Carrying Vehicle
 stattextdickey84 : 1308
 stattextdicvalue84 : Mobile Air-Defense
 stattextdickey85 : 1302
@@ -1054,7 +1250,7 @@ stattextdicvalue89 : Air Superiority
 stattextdickey90 : 1311
 stattextdicvalue90 : Ground Support
 stattextdickey91 : 1312
-stattextdicvalue91 : Main Battle Tank
+stattextdicvalue91 : Self-Propelled Artillery
 stattextdickey92 : 601
 stattextdicvalue92 : z<1><3>Z: <1>Train Anti-Tank Infantry
 stattextdickey93 : 286
@@ -1064,12 +1260,49 @@ stattextdicvalue94 : <3>Assimilated <6>Gunship Turret<4><10>Range: 5<10>Type: No
 stattextdickey95 : 416
 stattextdicvalue95 : Heavy Airborne Infected<10><4>Large<10>Biological
 stattextdickey96 : 284
-stattextdicvalue96 : <3>Sword Draw<4><10>Range: 7<10>Type: Normal<10>Cooldown: 100
+stattextdicvalue96 : <3>Sword Draw<4><10>Range: 7<10>Type: Normal<10>Cooldown: 50
 stattextdickey97 : 229
 stattextdicvalue97 : <3>Assimilated Shotgun<10><4>Range: 5<10>Type: Explosive<10>Area: 10/10/10<10>Cooldown: 10
 stattextdickey98 : 377
-stattextdicvalue98 : <3>Assimilated Plague<4><10>Range: 1<10>Type: DoT<10>Cooldown: 150<10>Damage: 800
+stattextdicvalue98 : <3>Assimilated Radiation<4><10>Range: 3<10>Type: DoT<10>Cooldown: 100<10>
+stattextdickey99 : 250
+stattextdicvalue99 : <3>BB Guns<4><10>Range: 8<10>Type: Explosive<10>Cooldown: 159
+stattextdickey100 : 251
+stattextdicvalue100 : <3>Anti-Air Guns<4><10>Range: 8<10>Type: Explosive<10>Cooldown: 159
+stattextdickey101 : 290
+stattextdicvalue101 : <6>Dominating Touch<4><10>Range: 3<10>Type: Ignore Armor<10>Area: 3/15/30<10>Cooldown: 6
+stattextdickey102 : 282
+stattextdicvalue102 : <3>Assimilated <6>Bionic Blades<4><10>Range: 1<10>Type: Normal<10>Cooldown: 10
+stattextdickey103 : 1321
+stattextdicvalue103 : Super Rare
+stattextdickey104 : 570
+stattextdicvalue104 : Super Rare
+stattextdickey105 : 1317
+stattextdicvalue105 : Cavalry Fighting Vehicle
+stattextdickey106 : 1236
+stattextdicvalue106 : <6>25<4>mm <3>M<4>242 <30>Chain Gun<10><4>Range: 6<10>Type: Normal<10>Cooldown: 10
+stattextdickey107 : 1316
+stattextdicvalue107 : Main Battle Tank
+stattextdickey108 : 254
+stattextdicvalue108 : <4>155<6>mm<3> L/39 <30>M126<10><4>Range: 8<10>Type: Normal<10>Area: 10/25/50<10>Cooldown: 60
+stattextdickey109 : 1290
+stattextdicvalue109 : w<1><3>W: <1>Construct Bradley CFV
+stattextdickey110 : 595
+stattextdicvalue110 : a<1><3>A: <1>Construct M1A2 Abrams
+stattextdickey111 : 593
+stattextdicvalue111 : x<1><3>X: <1>Build Raven UAV
+stattextdickey112 : 288
+stattextdicvalue112 : <6>M72 <30>LAWS<10><4>Range: 5<10>Type: Explosive<10>Cooldown: 60
+stattextdickey113 : 640
+stattextdicvalue113 : z<1><3>Z: <1>Train Anti-Tank Infantry
+stattextdickey114 : 1313
+stattextdicvalue114 : Unmanned Aerial Vehicle
+stattextdickey115 : 703
+stattextdicvalue115 : Requires:<10>   Attached Machine Shop, Physics Lab
 wireuse : True
+wireframData66 : 29
+grpwireData66 : 30
+tranwireData66 : 67
 wireframData106 : 110
 E_FileManagerSET
 S_TriggerEditorSET
