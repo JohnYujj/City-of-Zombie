@@ -1,6 +1,6 @@
 S_ProjectSET
 Version : v 0.14.9
-InputMap : C:\Users\johny\Documents\GitHub\City-of-Zombie\CityZombie.scx
+InputMap : C:\Users\johny\Documents\GitHub\City-of-Zombie\CityZombieC.scx
 OutputMap : C:\Users\johny\Documents\GitHub\City-of-Zombie\Infected City Latest.scx
 euddraftuse : True
 loadfromCHK : True
@@ -18,6 +18,8 @@ triggerSetTouse : True
 triggerPlayer : 7
 E_ProjectSET
 S_DatEditSET
+0,0,3,7
+0,0,6,2
 0,0,66,30
 0,0,72,2
 0,0,99,3
@@ -73,8 +75,8 @@ S_DatEditSET
 0,8,56,15360
 0,8,62,38400
 0,8,66,506880
-0,8,69,286720
-0,8,70,268800
+0,8,69,184320
+0,8,70,115200
 0,8,76,409600
 0,8,77,307200
 0,8,83,230400
@@ -147,7 +149,7 @@ S_DatEditSET
 0,22,43,32768
 0,22,55,32768
 0,22,58,-33537924
-0,22,60,4210816
+0,22,60,16512
 0,22,62,32768
 0,22,66,16512
 0,22,68,65536
@@ -166,8 +168,8 @@ S_DatEditSET
 0,22,113,128
 0,22,114,128
 0,22,116,128
-0,22,124,128
-0,22,125,128
+0,22,124,16512
+0,22,125,16512
 0,22,126,128
 0,22,144,-32768
 0,22,146,3758096384
@@ -182,7 +184,7 @@ S_DatEditSET
 0,23,52,8
 0,23,54,1
 0,23,56,-3
-0,23,60,-1
+0,23,60,1
 0,23,62,-4
 0,23,66,2
 0,23,70,1
@@ -252,6 +254,7 @@ S_DatEditSET
 0,26,19,1
 0,26,38,-1
 0,26,46,-1
+0,26,52,-1
 0,26,53,-1
 0,26,60,1
 0,26,62,-2
@@ -264,8 +267,8 @@ S_DatEditSET
 0,27,43,1
 0,27,55,2
 0,27,66,13
-0,27,69,11
-0,27,70,8
+0,27,69,14
+0,27,70,14
 0,27,83,5
 0,28,7,-1
 0,28,46,-1
@@ -501,6 +504,7 @@ S_DatEditSET
 0,49,80,-3
 0,49,83,-2
 0,49,84,-2
+0,49,106,4
 0,49,110,4
 0,49,111,4
 0,49,113,4
@@ -511,14 +515,16 @@ S_DatEditSET
 0,50,106,-20
 0,50,109,16
 0,50,110,16
-0,51,5,8
+0,51,1,-1
+0,51,5,12
 0,51,7,-1
 0,51,16,4
-0,51,60,12
+0,51,58,2
+0,51,60,16
 0,51,62,-4
-0,51,66,12
+0,51,66,20
 0,51,69,-2
-0,51,70,10
+0,51,70,14
 0,51,79,4
 0,51,84,-1
 0,51,124,4
@@ -705,7 +711,7 @@ S_DatEditSET
 1,5,80,-32
 1,5,81,-32
 1,5,85,209
-1,5,100,96
+1,5,100,160
 1,5,104,-96
 1,5,107,-64
 1,6,10,-6
@@ -759,7 +765,7 @@ S_DatEditSET
 1,10,104,-17
 1,10,107,-20
 1,11,1,10
-1,11,27,-5
+1,11,27,40
 1,11,32,75
 1,11,66,5
 1,11,100,-5
@@ -774,7 +780,7 @@ S_DatEditSET
 1,13,66,15
 1,13,100,-100
 1,14,5,-9
-1,14,27,50
+1,14,27,-10
 1,14,28,-110
 1,14,32,600
 1,14,34,50
@@ -783,20 +789,20 @@ S_DatEditSET
 1,14,65,20
 1,14,66,140
 1,14,71,52
-1,14,73,16
+1,14,73,32
 1,14,75,10
 1,14,82,10
 1,14,96,-20
 1,14,100,155
-1,14,104,7
+1,14,104,-5
 1,14,107,392
 1,15,8,1
 1,15,10,1
-1,15,27,10
+1,15,27,3
 1,15,29,1
 1,15,32,80
 1,15,66,18
-1,15,73,2
+1,15,73,4
 1,15,100,19
 1,15,104,-1
 1,15,107,49
@@ -811,7 +817,7 @@ S_DatEditSET
 1,16,23,37
 1,16,24,37
 1,16,27,5
-1,16,28,-57
+1,16,28,-55
 1,16,29,9
 1,16,32,239
 1,16,34,-45
@@ -823,11 +829,11 @@ S_DatEditSET
 1,16,48,-18
 1,16,49,-20
 1,16,65,-12
-1,16,66,10
+1,16,66,18
 1,16,67,8
 1,16,69,38
 1,16,71,-8
-1,16,73,-22
+1,16,73,-18
 1,16,75,-10
 1,16,85,18
 1,16,100,16
@@ -840,7 +846,7 @@ S_DatEditSET
 1,18,29,16
 1,18,32,48
 1,18,66,-64
-1,18,73,48
+1,18,73,112
 1,18,75,48
 1,18,100,48
 1,19,10,-64
@@ -891,16 +897,17 @@ S_DatEditSET
 2,3,88,-12569
 2,3,185,4678
 2,3,190,-19901
-2,3,191,-16067
+2,4,43,-24
 2,4,146,13
 2,4,154,13
 2,4,185,10
 2,4,190,10
-2,4,191,30
+2,4,191,-18
 2,4,199,126
 2,6,47,-2
 4,5,219,-2
 4,5,940,-2
+4,7,254,-2
 5,7,33,47
 5,8,16,45
 5,8,17,45
@@ -1311,7 +1318,7 @@ stattextdicvalue8 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 7<10>Type: Explo
 stattextdickey9 : 235
 stattextdicvalue9 : <6>FIM<4>-<3>92 <30>Stinger Missiles<4><10>Range: 7 (+3)<10>Type: Normal<10>Cooldown: 16
 stattextdickey10 : 1239
-stattextdicvalue10 : <6>LAU<4>-<3>142/A <30>Missiles<4><10>Range: 8<10>Type: Normal<10>Cooldown: 24
+stattextdicvalue10 : <6>LAU<4>-<3>142/A <30>Missiles<4><10>Range: 10<10>Type: Normal<10>Cooldown: 24
 stattextdickey11 : 296
 stattextdicvalue11 : <3>30mm Gunship MG<10><4>Range: 4<10>Type: Explosive<10>Area: 5/5/5<10>Cooldown: 12
 stattextdickey12 : 228
@@ -1385,7 +1392,7 @@ stattextdicvalue45 : s<2><3>S: <1>Research Rocket Boosters (Avenger Range)
 stattextdickey46 : 324
 stattextdicvalue46 : z<4><3>Z: <1>Research Napalm Strike (F-22 Ability)
 stattextdickey47 : 292
-stattextdicvalue47 : <3>40<6>mm<3> L/40 <30>Bofors Cannon<4><10>Range: 5<10>Type: Normal<10>Cooldown: 8
+stattextdicvalue47 : <3>40<6>mm<3> L/40 <30>Bofors Cannon<4><10>Range: 5<10>Type: Normal<10>Cooldown: 12
 stattextdickey48 : 313
 stattextdicvalue48 : q<3><4>Q: <3>Napalm Strike<4><10>Range: 10<10>Type: Penetration Biological<10>Area: 75/75/75<10>Cooldown: 240<10>Damage: 600(+80)
 stattextdickey49 : 334
@@ -1397,7 +1404,7 @@ stattextdicvalue51 : Defensive Matrix:<10>   Requires Research
 stattextdickey52 : 339
 stattextdicvalue52 : q<3><3>Q: <1>Defensive Matrix
 stattextdickey53 : 285
-stattextdicvalue53 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 6 (+2)<10>Type: Normal<10>Cooldown: 40
+stattextdicvalue53 : <4>120<6>mm<3> L/44 <30>M256A1<10><4>Range: 6 (+2)<10>Type: Normal<10>Cooldown: 48
 stattextdickey54 : 410
 stattextdicvalue54 : Infantry Armor<10><4>Small<10>Biological
 stattextdickey55 : 411
@@ -1521,7 +1528,7 @@ stattextdicvalue113 : Unmanned Aerial Vehicle
 stattextdickey114 : 703
 stattextdicvalue114 : Requires:<10>   Attached Machine Shop, Physics Lab
 stattextdickey115 : 255
-stattextdicvalue115 : <3>Bio Ball<4><10>Range: 8<10>Type: Explosive<10>Area: 10/25/40<10>Cooldown: 18
+stattextdicvalue115 : <3>Bio Ball<4><10>Range: 8<10>Type: Explosive<10>Area: 10/25/40<10>Cooldown: 20
 stattextdickey116 : 1315
 stattextdicvalue116 : Heavy Traktor
 stattextdickey117 : 705
