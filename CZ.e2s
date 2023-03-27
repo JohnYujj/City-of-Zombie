@@ -876,7 +876,7 @@ S_DatEditSET
 1,1,23,10
 1,1,24,-4
 1,1,28,16
-1,1,29,2
+1,1,29,9
 1,1,32,5
 1,1,66,-1
 1,1,69,11
@@ -901,6 +901,7 @@ S_DatEditSET
 1,3,9,1
 1,3,13,32
 1,3,26,32
+1,3,27,32
 1,3,29,33
 1,3,32,67
 1,3,66,31
@@ -912,6 +913,7 @@ S_DatEditSET
 1,3,100,32
 1,3,107,1
 1,3,111,32
+1,3,116,32
 1,4,27,-64
 1,4,28,-64
 1,5,2,-96
@@ -985,6 +987,7 @@ S_DatEditSET
 1,7,111,1
 1,8,4,2
 1,8,28,-2
+1,8,29,-1
 1,8,32,-1
 1,8,66,-1
 1,8,69,-2
@@ -1117,7 +1120,7 @@ S_DatEditSET
 1,18,23,48
 1,18,24,48
 1,18,29,16
-1,18,32,48
+1,18,32,112
 1,18,66,-64
 1,18,73,112
 1,18,75,48
@@ -1134,7 +1137,7 @@ S_DatEditSET
 1,23,8,4
 1,23,9,2
 1,23,28,11
-1,23,29,-3
+1,23,29,24
 1,23,32,1
 1,23,69,4
 1,23,73,-25
@@ -1803,7 +1806,7 @@ stattextdicvalue93 : <3>Assimilated <6>Tank Turret<4><10>Range: 8<10>Type: Explo
 stattextdickey94 : 294
 stattextdicvalue94 : <3>Assimilated <6>Gunship Turret<4><10>Range: 5<10>Type: Normal<10>Cooldown: 20
 stattextdickey95 : 416
-stattextdicvalue95 : <31>High-Altitude <28>Airborne <10><4>Small<10>Biological
+stattextdicvalue95 : <31>High-Altitude <28>Airborne <10><4>Large<10>Biological
 stattextdickey96 : 284
 stattextdicvalue96 : <3>Sword Draw<4><10>Range: 7<10>Type: Normal<10>Cooldown: 40
 stattextdickey97 : 229
